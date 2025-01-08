@@ -1,0 +1,86 @@
+﻿@using Websitebansach.Models
+@model List<GioHang>
+@{
+    ViewBag.Title = "GioHang";
+    Layout = "~/Views/Layout/NguoiDunglayout2.cshtml";
+}
+
+<h2>Giỏ hàng của bạn</h2>
+<table id="divGioHang">
+    <tr id="trMuc">
+        <td>Mã sách</td>
+
+        <td>Tên sách</td>
+
+        <td>Ảnh bìa</td>
+
+        <td>Đơn giá</td>
+
+        <td>Số lượng</td>
+
+        <td>Thành tiền</td>
+    </tr>
+
+    @foreach (var item in Model)
+    {
+        <tr>
+            <td>@item.iMaSach</td>
+
+            <td>@item.sTenSach</td>
+
+            <td><a href="@Url.Action("XemChiTiet","Sach", new {@MaSach = item.iMaSach})"><img src="@Url.Content("~/HinhAnh/"+item.sAnhBia)" width="50" height="50" /></a></td>
+
+            <td>@String.Format("{0:0,0}", item.dDonGia) VNĐ</td>
+
+            <td>@item.iSoLuong</td>
+
+            <td>@String.Format("{0:0,0}", item.ThanhTien) VNĐ</td>
+
+        </tr>
+
+    }
+    <tr>
+        <td colspan="6" style="text-align:right; color:darkblue">
+            @Html.ActionLink("Chỉnh sửa giỏ hàng", "SuaGioHang")
+        </td>
+    </tr>
+    <tr>
+        <td colspan="6" style="text-align:right; color: blue">
+            @using (Html.BeginForm("DatHang", "GioHang"))
+            {
+        <tr>
+            <td colspan="6" style="text-align:right; color: blue">
+                @using (Html.BeginForm("DatHang", "GioHang", FormMethod.Post))
+                {
+                    <div style="margin-bottom: 10px;">
+                        <label><input type="radio" name="PaymentMethod" value="COD" checked /> Thanh toán khi nhận hàng</label><br />
+                        <label><input type="radio" name="PaymentMethod" value="Online" /> Thanh toán online</label>
+                    </div>
+                    <input type="submit" style="cursor: pointer; width: 100px; height: 30px; background-color: #FF3333; color: white;" value="Đặt hàng" />
+                }
+            </td>
+        </tr>
+
+    }
+            </td>
+            </tr>
+        </table>
+@*Css giỏ hàng*@
+<style>
+    #divGioHang {
+        border: 2px solid #808080;
+        margin-left: 10%;
+        color: black;
+    }
+        #divGioHang td {
+            padding: 10px;
+            border: 1px solid #808080;
+        }
+        h2{
+            color:black;
+        }
+        #trMuc{
+            color:red;
+           
+        }
+</style>

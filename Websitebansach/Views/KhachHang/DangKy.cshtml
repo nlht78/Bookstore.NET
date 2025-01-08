@@ -1,0 +1,128 @@
+﻿@model Websitebansach.Models.KhachHang
+@{
+    ViewBag.Title = "Đăng Ký";
+    Layout = null;
+}
+
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Đăng Ký</title>
+    <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet" />
+</head>
+<body>
+
+    <div class="container">
+        <div class="row justify-content-center">
+            <div class="col-md-8 col-lg-6">
+                <h2 class="text-center mb-4">Đăng Ký</h2>
+
+                @using (Html.BeginForm("DangKy", "KhachHang", FormMethod.Post))
+                {
+                    @Html.AntiForgeryToken()
+
+                    <div class="form-horizontal">
+                        <h4 class="text-center mb-4">Thông Tin Khách Hàng</h4>
+                        <hr />
+                        @Html.ValidationSummary(true, "", new { @class = "text-danger" })
+
+                        <!-- Họ tên -->
+                        <div class="form-group row mb-3">
+                            @Html.LabelFor(m => m.HoTen, "Họ tên", new { @class = "col-sm-4 col-form-label text-right" })
+                            <div class="col-sm-8">
+                                @Html.EditorFor(m => m.HoTen, new { htmlAttributes = new { @class = "form-control" } })
+                                @Html.ValidationMessageFor(m => m.HoTen, "", new { @class = "text-danger" })
+                            </div>
+                        </div>
+
+                        <!-- Tài khoản -->
+                        <div class="form-group row mb-3">
+                            @Html.LabelFor(m => m.TaiKhoan, "Tài khoản", new { @class = "col-sm-4 col-form-label text-right" })
+                            <div class="col-sm-8">
+                                @Html.EditorFor(m => m.TaiKhoan, new { htmlAttributes = new { @class = "form-control" } })
+                                @Html.ValidationMessageFor(m => m.TaiKhoan, "", new { @class = "text-danger" })
+                            </div>
+                        </div>
+
+                        <!-- Mật khẩu -->
+                        <div class="form-group row mb-3">
+                            @Html.LabelFor(m => m.MatKhau, "Mật khẩu", new { @class = "col-sm-4 col-form-label text-right" })
+                            <div class="col-sm-8">
+                                @Html.PasswordFor(m => m.MatKhau, new { htmlAttributes = new { @class = "form-control" } })
+                                @Html.ValidationMessageFor(m => m.MatKhau, "", new { @class = "text-danger" })
+                            </div>
+                        </div>
+
+                        <!-- Xác nhận mật khẩu -->
+                        <div class="form-group row mb-3">
+                            <label for="XacNhanMatKhau" class="col-sm-4 col-form-label text-right">Xác nhận mật khẩu</label>
+                            <div class="col-sm-8">
+                                <input type="password" name="XacNhanMatKhau" class="form-control" placeholder="Nhập lại mật khẩu" />
+                                <span class="text-danger" data-valmsg-for="XacNhanMatKhau"></span>
+                            </div>
+                        </div>
+
+                        <!-- Địa chỉ -->
+                        <div class="form-group row mb-3">
+                            @Html.LabelFor(m => m.DiaChi, "Địa chỉ", new { @class = "col-sm-4 col-form-label text-right" })
+                            <div class="col-sm-8">
+                                @Html.EditorFor(m => m.DiaChi, new { htmlAttributes = new { @class = "form-control" } })
+                                @Html.ValidationMessageFor(m => m.DiaChi, "", new { @class = "text-danger" })
+                            </div>
+                        </div>
+
+                        <!-- Điện thoại -->
+                        <div class="form-group row mb-3">
+                            @Html.LabelFor(m => m.DienThoai, "Điện thoại", new { @class = "col-sm-4 col-form-label text-right" })
+                            <div class="col-sm-8">
+                                @Html.EditorFor(m => m.DienThoai, new { htmlAttributes = new { @class = "form-control" } })
+                                @Html.ValidationMessageFor(m => m.DienThoai, "", new { @class = "text-danger" })
+                            </div>
+                        </div>
+
+                        <!-- Giới tính -->
+                        <div class="form-group row mb-3">
+                            @Html.LabelFor(m => m.GioiTinh, "Giới tính", new { @class = "col-sm-4 col-form-label text-right" })
+                            <div class="col-sm-8">
+                                @Html.DropDownListFor(m => m.GioiTinh, new SelectList(new[] {
+                                    new { Value = "Nam", Text = "Nam" },
+                                    new { Value = "Nữ", Text = "Nữ" },
+                                    new { Value = "Khác", Text = "Khác" }
+                                }, "Value", "Text"), "Chọn giới tính", new { @class = "form-control" })
+                                @Html.ValidationMessageFor(m => m.GioiTinh, "", new { @class = "text-danger" })
+                            </div>
+                        </div>
+
+                        <!-- Ngày sinh -->
+                        <div class="form-group row mb-3">
+                            @Html.LabelFor(m => m.NgaySinh, "Ngày sinh", new { @class = "col-sm-4 col-form-label text-right" })
+                            <div class="col-sm-8">
+                                @Html.TextBoxFor(m => m.NgaySinh, "{0:yyyy-MM-dd}", new { @class = "form-control", type = "date" })
+                                @Html.ValidationMessageFor(m => m.NgaySinh, "", new { @class = "text-danger" })
+                            </div>
+                        </div>
+
+                        <!-- Nút Đăng ký -->
+                        <div class="form-group row mb-3">
+                            <div class="col-sm-8 offset-sm-4">
+                                <input type="submit" value="Đăng Ký" class="btn btn-primary btn-block" />
+                            </div>
+                        </div>
+
+                        <!-- Nút Quay lại Đăng Nhập và Trang Chủ -->
+                        <div class="form-group row mb-3">
+                            <div class="col-sm-8 offset-sm-4">
+                                <a href="@Url.Action("DangNhap", "KhachHang")" class="btn btn-secondary btn-block mb-2">Quay lại Đăng Nhập</a>
+                                <a href="@Url.Action("Index", "Home")" class="btn btn-light btn-block">Trang Chủ</a>
+                            </div>
+                        </div>
+                    </div>
+                }
+            </div>
+        </div>
+    </div>
+
+</body>
+</html>

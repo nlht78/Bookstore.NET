@@ -1,0 +1,53 @@
+﻿@model Websitebansach.Models.DonHang
+
+@{
+    ViewBag.Title = "Xác Nhận Đơn Hàng";
+    Layout = "~/Views/Layout/NguoiDunglayout2.cshtml";
+}
+
+<h2>Xác Nhận Đơn Hàng</h2>
+
+<div style="border: 1px solid #ccc; padding: 20px; width: 50%; margin: auto;">
+    <h3>Cảm ơn bạn đã đặt hàng!</h3>
+    <p>Đơn hàng của bạn đã được ghi nhận và sẽ được giao đến địa chỉ của bạn trong thời gian sớm nhất.</p>
+
+    <h4>Thông Tin Đơn Hàng</h4>
+    <p><strong>Mã Đơn Hàng:</strong> @Model.MaDonHang</p>
+    <p><strong>Ngày Đặt:</strong> @(Model.NgayDat.HasValue ? Model.NgayDat.Value.ToString("dd/MM/yyyy HH:mm") : "Không xác định")</p>
+    <p><strong>Tổng Số Tiền:</strong> @String.Format("{0:0,0}", Model.ChiTietDonHangs.Sum(ct => (ct.SoLuong ?? 0) * (ct.DonGia ?? 0))) VNĐ</p>
+    <p><strong>Phương Thức Thanh Toán:</strong> Thanh toán khi nhận hàng</p>
+
+    <hr />
+
+    <p style="color: darkblue;">Bạn sẽ nhận được thông báo khi đơn hàng của bạn được giao. Hãy kiểm tra email để biết thêm thông tin chi tiết.</p>
+    <a href="@Url.Action("Index", "Home")" class="btn btn-primary">Quay về trang chủ</a>
+</div>
+
+<style>
+    div {
+        text-align: center;
+    }
+
+    h2, h3, h4 {
+        color: #333;
+    }
+
+    p {
+        font-size: 16px;
+        margin: 5px 0;
+    }
+
+    .btn {
+        display: inline-block;
+        padding: 10px 20px;
+        margin-top: 20px;
+        background-color: #007bff;
+        color: white;
+        text-decoration: none;
+        border-radius: 5px;
+    }
+
+        .btn:hover {
+            background-color: #0056b3;
+        }
+</style>

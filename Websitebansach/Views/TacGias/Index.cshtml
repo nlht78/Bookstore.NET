@@ -1,0 +1,58 @@
+﻿@model IEnumerable<Websitebansach.Models.TacGia>
+
+@{
+    ViewBag.Title = "Index";
+    Layout = "~/Views/Layout/AdminLayout.cshtml";
+}
+
+<h2>Quản lý tác giả</h2>
+
+<p>
+    @Html.ActionLink("Create New", "Create", null, new { @class = "btn btn-success" })
+    @Html.ActionLink("Thêm vào sách", "CreateThamGia", null, new { @class = "btn btn-primary" }) <!-- Nút thêm vào sách -->
+</p>
+
+
+<table class="table">
+    <tr>
+        <th>
+            @Html.DisplayNameFor(model => model.TenTacGia)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.DiaChi)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.TieuSu)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.DienThoai)
+        </th>
+        <th></th>
+    </tr>
+
+    @foreach (var item in Model)
+    {
+        <tr>
+            <td>
+                @Html.DisplayFor(modelItem => item.TenTacGia)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.DiaChi)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.TieuSu)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.DienThoai)
+            </td>
+            <td>
+                @Html.ActionLink("Edit", "Edit", new { id = item.MaTacGia }) |
+                @Html.ActionLink("Details", "Details", new { id = item.MaTacGia }) |
+                @Html.ActionLink("Delete", "Delete", new { id = item.MaTacGia }) |
+                @Html.ActionLink("Sách đã tham gia", "SachDaThamGia", new { id = item.MaTacGia })
+            </td>
+
+        </tr>
+    }
+
+</table>

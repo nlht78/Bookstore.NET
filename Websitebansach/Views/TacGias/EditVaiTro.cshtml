@@ -1,0 +1,29 @@
+﻿@model Websitebansach.Models.ThamGia
+
+@{
+    ViewBag.Title = "Chỉnh sửa Vai Trò";
+    Layout = "~/Views/Layout/AdminLayout.cshtml";
+}
+
+<h2>Chỉnh sửa Vai Trò</h2>
+
+@using (Html.BeginForm())
+{
+    @Html.AntiForgeryToken()
+
+    <div class="form-group">
+        @Html.LabelFor(model => model.VaiTro)
+        @Html.TextBoxFor(model => model.VaiTro, new { @class = "form-control" })
+    </div>
+
+    <div class="form-group">
+        @Html.LabelFor(model => model.ViTri)
+        @Html.TextBoxFor(model => model.ViTri, new { @class = "form-control" })
+    </div>
+
+    @Html.HiddenFor(model => model.MaTacGia)
+    @Html.HiddenFor(model => model.MaSach)
+
+    <button type="submit" class="btn btn-primary">Cập nhật</button>
+    @Html.ActionLink("Hủy", "SachDaThamGia", new { id = Model.MaTacGia }, new { @class = "btn btn-secondary" })
+}

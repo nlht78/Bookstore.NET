@@ -1,0 +1,126 @@
+﻿@using Websitebansach.Models;
+@using PagedList.Mvc;
+@model PagedList.IPagedList<Sach>
+
+<link href="~/Content/TrangChu.css" rel="stylesheet" />
+
+@{
+    ViewBag.Title = "Index";
+    Layout = "~/Views/Layout/NguoidungLayout.cshtml";
+}
+<h2>
+    Sách đang bán
+</h2>
+
+@if (TempData["SuccessMessage"] != null)
+{
+    <div id="notification" style="color: green;">@TempData["SuccessMessage"]</div>
+    <script>
+        setTimeout(function () {
+            document.getElementById('notification').style.display = 'none';
+        }, 5000); // Ẩn thông báo sau 5 giây</script>
+}
+@if (TempData["Message"] != null)
+{
+    <div class="alert alert-success">
+        @TempData["Message"]
+    </div>
+}
+@section Noidungbenphai {
+    <div>
+        Website bán sách
+    </div>
+}
+<div style="margin-bottom: 20px;">
+    <form method="get" action="@Url.Action("Index", "Home")">
+        <label for="sortOption">Sắp xếp:</label>
+        <select name="sortOption" id="sortOption" onchange="this.form.submit()">
+            <option value="" @(ViewBag.SortOption == null ? "selected" : "")>Mặc định</option>
+            <option value="PriceAsc" @(ViewBag.SortOption == "PriceAsc" ? "selected" : "")>Giá từ thấp đến cao</option>
+            <option value="PriceDesc" @(ViewBag.SortOption == "PriceDesc" ? "selected" : "")>Giá từ cao đến thấp</option>
+            <option value="AZ" @(ViewBag.SortOption == "AZ" ? "selected" : "")>Tên từ A-Z</option>
+            <option value="BestSelling" @(ViewBag.SortOption == "BestSelling" ? "selected" : "")>Sách bán chạy</option>
+        </select>
+    </form>
+</div>
+
+<div id="divBody">
+    @{ int i = 0;}
+    @foreach (var item in Model)
+    {
+        i++;
+        <div id="SPsach">
+            <a href="@Url.Action("XemChiTiet","Sach",new {@MaSach=item.MaSach})">
+                <div id="AnhBia"><img src="@Url.Content("~/HinhAnh/"+item.AnhBia)" /> </div>
+
+                <div id="ThongTin">
+
+                    <div id="TenSach">@item.TenSach</div>
+                    <div id="DonGia" style="color:orange"><font color="green">Giá: </font>@String.Format("{0:0,0}", item.GiaBan + " VNĐ")</div>
+                    <div id="GioHang">
+                        @using (Html.BeginForm("ThemGioHang", "GioHang", new { @iMaSach = item.MaSach, @strURL = Request.Url.ToString() }))
+                        {
+                            <input type="submit" style="cursor: pointer; width: 100px; height: 30px; background-color: #FF3333; color: white; " value="Mua hàng" id="btnGioHang" class="btn btn-primary">
+                        }
+                    </div>
+                </div>
+
+            </a>
+        </div>
+        if (i % 4 == 0)
+        {
+            <div style="clear:both"></div>
+        }
+    }
+</div>
+
+<div style="clear:both"></div>
+<!-- Hiển thị phần đánh giá -->
+<h3>Đánh Giá Sản Phẩm</h3>
+<form method="post" action="@Url.Action("SubmitReview", "Review")">
+    @Html.AntiForgeryToken()
+    <div class="form-group">
+        <label for="UserName">Tên của bạn:</label>
+        <input type="text" name="UserName" id="UserName" class="form-control" required />
+    </div>
+
+    <div class="form-group">
+        <label for="Comment">Nội dung đánh giá:</label>
+        <textarea name="Comment" id="Comment" class="form-control" required></textarea>
+    </div>
+
+    <div class="form-group">
+        <label for="Rating">Đánh giá (1-5):</label>
+        <input type="number" name="Rating" id="Rating" class="form-control" min="1" max="5" required />
+    </div>
+
+    <button type="submit" class="btn btn-primary">Gửi đánh giá</button>
+</form>
+
+<!-- Hiển thị danh sách đánh giá -->
+<h3>Các đánh giá đã gửi</h3>
+@if (Model != null && Model.Any())
+{
+    <ul>
+        @*@foreach (var review in Model)
+            {
+                <li>
+                    <strong>@review.UserName</strong> đã đánh giá: @review.Rating/5
+                    <p>@review.Comment</p>
+                </li>
+            }*@
+    </ul>
+}
+else
+{
+    <p>Chưa có đánh giá nào.</p>
+}
+Trang @(Model.PageCount < Model.PageNumber ? 0 : Model.PageNumber)/ @Model.PageCount;
+<div class="MenuTrang">
+    @Html.PagedListPager(Model, page => Url.Action("Index", new { page }))
+</div>
+<style>
+    .MenuTrang li {
+        display: inline;
+    }
+</style>

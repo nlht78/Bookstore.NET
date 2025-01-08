@@ -1,0 +1,13 @@
+﻿@using Websitebansach.Models
+@model List<NhaXuatBan>
+
+<link href="~/Content/NguoidungLayoutcss/NXB.css" rel="stylesheet" />
+<h7 style="width:167px; padding:10px;">Nhà xuất bản</h7>
+
+@{
+    foreach (var item in Model)
+    {
+        <div><i style="padding-right:10px;"><img src="~/HinhAnh/img_avatar3.png" alt="Person" style="width:1%"></i><a href="@Url.Action("SachTheoNXB", new { @MaNXB = item.MaNXB })">@item.TenNXB</a></div>
+        }
+    }
+

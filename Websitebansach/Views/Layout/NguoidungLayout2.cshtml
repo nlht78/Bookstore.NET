@@ -1,0 +1,155 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <meta name="viewport" content="width=device-width" />
+    <title>@ViewBag.Title</title>
+    <link href="~/Content/NguoidungLayoutcss/fonts.css" rel="stylesheet" />
+    <link href="~/Content/NguoidungLayoutcss/screen.css" rel="stylesheet" />
+    <link href="~/Content/NguoidungLayoutcss/NguoidungLayoutcss.css" rel="stylesheet" />
+    <link href="~/Content/Fontweasome/css/font-awesome.min.css" rel="stylesheet" />
+    <link href="~/NivoSilder/nivo-slider.css" rel="stylesheet" />
+    <script src="~/Scripts/jquery-3.4.1.min.js"></script>
+    <script src="~/NivoSilder/jquery.nivo.slider.js"></script>
+    <script src="~/NivoSilder/jquery.nivo.slider.pack.js"></script>
+    <style>
+        .account-dropdown {
+            position: relative;
+            display: inline-block;
+        }
+
+            .account-dropdown .account-icon {
+                display: flex;
+                align-items: center;
+                justify-content: flex-start;
+                margin-left: 70px;
+            }
+
+            .account-dropdown .dropdown-content {
+                display: none;
+                position: absolute;
+                background-color: #f9f9f9;
+                min-width: 160px;
+                box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+                z-index: 1;
+                left: 0px;
+            }
+
+            .account-dropdown:hover .dropdown-content {
+                display: block;
+            }
+
+        .dropdown-content a {
+            color: black;
+            padding: 12px 10px;
+            text-decoration: none;
+            display: block;
+        }
+
+            .dropdown-content a:hover {
+                background-color: #f1f1f1;
+            }
+    </style>
+</head>
+
+<body>
+    <div id="Toantrang">
+
+        <section class="blank">
+            <div class="flash">
+                <div class="icDienThoai">
+                    <i class="fa fa-phone" aria-hidden="true"></i>
+                    (08)123-345
+                </div>
+
+                <div class="DangkyDangnhap">
+                    @Html.Action("GioHangPartial", "GioHang")
+                    <a href="@Url.Action("ThongBao", "KhachHang")"><i class="fa fa-bell"></i></a>
+                    @if (Session["KhachHang"] == null)
+                    {
+                        <i class="fa fa-sign-in" aria-hidden="true"></i>
+                        @Html.ActionLink("Đăng Ký", "DangKy", "KhachHang", null, new { @class = "Dangky" })
+                        <i class="fa fa-unlock" aria-hidden="true"></i>
+                        @Html.ActionLink("Đăng Nhập", "DangNhap", "KhachHang", null, new { @class = "Dangnhap" })
+                    }
+                    else
+                    {
+                        var khachHang = Session["KhachHang"] as Websitebansach.Models.KhachHang;
+                        <div class="account-dropdown">
+                            <div class="account-icon">
+
+                                <span> Xin chào,@khachHang.TaiKhoan</span>
+                            </div>
+                            <div class="dropdown-content">
+                                <a href="@Url.Action("ChinhSua", "KhachHang")">Thông tin cá nhân</a>
+                                <a href="@Url.Action("LichSuDonHang", "KhachHang")">Lịch sử đơn hàng</a>
+                                <a href="@Url.Action("DoiMatKhau", "KhachHang")">Đổi mật khẩu</a>
+                                <a href="@Url.Action("DangXuat", "KhachHang")">Đăng xuất</a>
+                            </div>
+                        </div>
+                    }
+                </div>
+            </div>
+
+            <div class="flash success" id="divDanhMuc">
+                <div id="txtTimKiem">
+                    @using (Html.BeginForm("KetQuaTimKiem", "TimKiem", FormMethod.Get))
+                    {
+                        @Html.TextBox("sTuKhoa", "", htmlAttributes: new { @class = "TextBoxTimKiem", @placeholder = "Nhập vào từ khóa cần tìm" })
+                        <div id="divHinhAnhTimKiem">
+                            <button type="submit"><img src="~/HinhAnh/freesearch.png" /> </button>
+                        </div>
+                    }
+                </div>
+
+                <ul class=" navMenu">
+                    <li>
+                        <a href="@Url.Action("Index","Home")">Trang Chủ</a>
+                    </li>
+                    <li>
+                        <a href="#">Sách</a>
+                    </li>
+                    <li>
+                        <a href="#">Giới Thiệu</a>
+                    </li>
+                    <li>
+                        <a href="#">Liên Hệ</a>
+                    </li>
+                    <li>
+                        <a href="#">Hướng Dẫn</a>
+                    </li>
+                </ul>
+            </div>
+        </section>
+
+        <div id="NoiDung">
+            @RenderBody()
+        </div>
+
+        <div style="clear:both"></div>
+        <section class="blank items">
+            <div class="item">
+                <div id="divLeft">
+                    <div class="item-info">
+                        @Html.Action("NhaXuatBanPartial", "NhaXuatBan")
+                    </div>
+                </div>
+
+                <div style="clear:both"></div>
+            </div>
+
+            <div id="divRight">
+                @RenderSection("Noidungbenphai", false)
+            </div>
+
+            <div>
+                <a href="#" class="button button-buy">Chào mừng các bạn đến với website bán sách</a>
+            </div>
+        </section>
+
+        <script type="text/javascript">
+    $(window).load(function () {
+                $('#slider').nivoSlider();
+            });</script>
+    </div>
+</body>
+</html>

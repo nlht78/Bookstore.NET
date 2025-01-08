@@ -1,0 +1,93 @@
+﻿@{
+    ViewBag.Title = "Đăng Nhập - Website Bán Sách";
+    Layout = null; <!-- Bỏ layout để tùy chỉnh toàn bộ trang -->
+}
+
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Đăng Nhập - Website Bán Sách</title>
+    <link href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet" />
+    <style>
+        body {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            background-color: #f8f9fa;
+        }
+
+        .login-container {
+            max-width: 400px;
+            width: 100%;
+            background: white;
+            padding: 30px;
+            border-radius: 10px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+            text-align: center;
+        }
+
+            .login-container h2 {
+                margin-bottom: 20px;
+            }
+
+        .btn-block {
+            width: 100%;
+        }
+    </style>
+</head>
+<body>
+
+    <div class="login-container">
+        <h2>Đăng Nhập</h2>
+
+        @if (TempData["SuccessMessage"] != null)
+        {
+            <div class="alert alert-success">
+                @TempData["SuccessMessage"]
+            </div>
+        }
+
+        @using (Html.BeginForm("DangNhap", "KhachHang", FormMethod.Post))
+        {
+            @Html.AntiForgeryToken()
+
+            @Html.ValidationSummary(true, "", new { @class = "text-danger" })
+
+            <!-- Tài khoản -->
+            <div class="form-group">
+                @Html.TextBox("TaiKhoan", "", new { @class = "form-control", placeholder = "Nhập tài khoản" })
+                @Html.ValidationMessage("TaiKhoan", "", new { @class = "text-danger" })
+            </div>
+
+            <!-- Mật khẩu -->
+            <div class="form-group">
+                @Html.Password("MatKhau", "", new { @class = "form-control", placeholder = "Nhập mật khẩu" })
+                @Html.ValidationMessage("MatKhau", "", new { @class = "text-danger" })
+            </div>
+
+            <!-- Nút Đăng Nhập -->
+            <div class="form-group">
+                <input type="submit" value="Đăng Nhập" class="btn btn-primary btn-block" />
+            </div>
+
+            <!-- Nút Quên Mật Khẩu -->
+            <div class="form-group">
+                <a href="@Url.Action("QuenMatKhau", "KhachHang")" class="btn btn-link">
+                    Quên mật khẩu?
+                </a>
+            </div>
+            <!-- Nút Quay lại Đăng Nhập và Trang Chủ -->
+            <div class="form-group row mb-3">
+                <div class="col-sm-8 offset-sm-4">
+                
+                    <a href="@Url.Action("Index", "Home")" class="btn btn-light btn-block">Trang Chủ</a>
+                </div>
+            </div>
+        }
+    </div>
+
+</body>
+</html>

@@ -1,0 +1,41 @@
+﻿@model Websitebansach.Models.KhachHang
+
+@{
+    ViewBag.Title = "Xóa người dùng";
+}
+
+<h2>Xóa người dùng</h2>
+
+<h3>Bạn có chắc chắn muốn xóa người dùng này?</h3>
+
+<div>
+    <h4>Thông tin người dùng</h4>
+    <hr />
+    <dl class="dl-horizontal">
+        <dt>Mã khách hàng</dt>
+        <dd>@Html.DisplayFor(model => model.MaKH)</dd>
+
+        <dt>Họ tên</dt>
+        <dd>@Html.DisplayFor(model => model.HoTen)</dd>
+
+        <dt>Tài khoản</dt>
+        <dd>@Html.DisplayFor(model => model.TaiKhoan)</dd>
+
+        <dt>Email</dt>
+        <dd>@Html.DisplayFor(model => model.Email)</dd>
+
+        <dt>Địa chỉ</dt>
+        <dd>@Html.DisplayFor(model => model.DiaChi)</dd>
+
+        <dt>Điện thoại</dt>
+        <dd>@Html.DisplayFor(model => model.DienThoai)</dd>
+    </dl>
+
+    @using (Html.BeginForm("Delete", "QuanLiNguoiDung", FormMethod.Post))
+    {
+        @Html.AntiForgeryToken()
+        <input type="hidden" name="id" value="@Model.MaKH" />
+        <input type="submit" value="Xóa" class="btn btn-danger" />
+        @Html.ActionLink("Hủy bỏ", "Index", null, new { @class = "btn btn-default" })
+    }
+</div>

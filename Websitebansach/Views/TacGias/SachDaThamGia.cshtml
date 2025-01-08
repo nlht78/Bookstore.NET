@@ -1,0 +1,46 @@
+﻿@model IEnumerable<Websitebansach.Models.SachThamGiaViewModel>
+
+@{
+    ViewBag.Title = "Sách đã tham gia";
+    Layout = "~/Views/Layout/AdminLayout.cshtml";
+}
+
+<h2>Sách đã tham gia của tác giả: @ViewBag.TenTacGia</h2>
+
+<table class="table">
+    <thead>
+        <tr>
+            <th>Tên Sách</th>
+            <th>Giá Bán</th>
+            <th>Mô Tả</th>
+            <th>Ảnh Bìa</th>
+            <th>Vai Trò</th>
+            <th>Vị Trí</th>
+            <th>Hành Động</th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var item in Model)
+        {
+            <tr>
+                <td>@item.TenSach</td>
+                <td>@(item.GiaBan == 0 ? "Không có giá" : item.GiaBan.ToString("N0"))</td>
+                <td>@(string.IsNullOrEmpty(item.MoTa) ? "Không có mô tả" : item.MoTa)</td>
+                <td>
+                    <img src="@Url.Content(string.IsNullOrEmpty(item.AnhBia) ? "~/Content/images/no-image.png" : item.AnhBia)"
+                         alt="Ảnh bìa" style="width: 100px; height: auto;" />
+                </td>
+                <td>@(string.IsNullOrEmpty(item.VaiTro) ? "Không xác định" : item.VaiTro)</td>
+                <td>@(string.IsNullOrEmpty(item.ViTri) ? "Không xác định" : item.ViTri)</td>
+                <td>
+                    @Html.ActionLink("Chỉnh sửa", "EditVaiTro", new { maTacGia = item.MaTacGia, maSach = item.MaSach }, new { @class = "btn btn-primary btn-sm" }) |
+                    @Html.ActionLink("Xóa", "DeleteThamGia", new { maTacGia = item.MaTacGia, maSach = item.MaSach }, new { @class = "btn btn-danger btn-sm" })
+                </td>
+            </tr>
+        }
+    </tbody>
+</table>
+
+<p>
+    @Html.ActionLink("Quay lại", "Index", "TacGias", null, new { @class = "btn btn-secondary" })
+</p>

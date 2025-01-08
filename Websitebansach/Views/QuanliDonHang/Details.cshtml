@@ -1,0 +1,58 @@
+﻿@model Websitebansach.Models.DonHang
+
+@{
+    ViewBag.Title = "Chi tiết Đơn Hàng";
+    Layout = "~/Views/Layout/AdminLayout.cshtml";
+}
+
+<h2>Chi tiết Đơn Hàng</h2>
+
+<div>
+    <h4>Thông tin Đơn Hàng</h4>
+    <hr />
+    <dl class="row">
+        <dt class="col-sm-2">Mã Đơn Hàng</dt>
+        <dd class="col-sm-10">@Model.MaDonHang</dd>
+
+        <dt class="col-sm-2">Khách Hàng</dt>
+        <dd class="col-sm-10">@Model.KhachHang.HoTen</dd>
+
+        <dt class="col-sm-2">Ngày Đặt</dt>
+        <dd class="col-sm-10">@Model.NgayDat</dd>
+
+        <dt class="col-sm-2">Ngày Giao</dt>
+        <dd class="col-sm-10">@Model.NgayGiao</dd>
+
+        <dt class="col-sm-2">Đã Thanh Toán</dt>
+        <dd class="col-sm-10">@Model.DaThanhToan</dd>
+
+        <dt class="col-sm-2">Tình Trạng Giao Hàng</dt>
+        <dd class="col-sm-10">@Model.TinhTrangGiaoHang</dd>
+    </dl>
+
+    <h4>Chi Tiết Sản Phẩm</h4>
+    <table class="table">
+        <thead>
+            <tr>
+                <th>Mã Sách</th>
+                <th>Số Lượng</th>
+                <th>Đơn Giá</th>
+            </tr>
+        </thead>
+        <tbody>
+            @foreach (var chiTiet in Model.ChiTietDonHangs)
+            {
+                <tr>
+                    <td>@chiTiet.MaSach</td>
+                    <td>@chiTiet.SoLuong</td>
+                    <td>@chiTiet.DonGia</td>
+                </tr>
+            }
+        </tbody>
+    </table>
+</div>
+
+<p>
+    @Html.ActionLink("Quay lại", "Index", null, new { @class = "btn btn-secondary" })
+    @Html.ActionLink("Chỉnh sửa", "Edit", new { id = Model.MaDonHang }, new { @class = "btn btn-primary" })
+</p>

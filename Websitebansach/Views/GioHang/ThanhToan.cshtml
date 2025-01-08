@@ -1,0 +1,53 @@
+﻿@{
+    ViewBag.Title = "Thanh Toán";
+}
+
+<h2>Thanh Toán Đơn Hàng</h2>
+
+
+<div style="border: 1px solid #ccc; padding: 20px; width: 50%; margin: auto;">
+    <h3>Quét mã QR để thanh toán</h3>
+    <img src="@Url.Content("~/HinhAnh/anhqr.jpg")" alt="QR Code" style="width: 200px; height: 200px;" />
+
+    <h3>Thông Tin Thanh Toán</h3>
+    <p><strong>Tên tài khoản:</strong> @ViewBag.TenTaiKhoan</p>
+    <p><strong>Số tài khoản:</strong> @ViewBag.SoTaiKhoan</p>
+    <p><strong>Ngân hàng:</strong> @ViewBag.NganHang</p>
+    <p><strong>Số tiền thanh toán:</strong> @String.Format("{0:0,0}", ViewBag.TongTien) VNĐ</p>
+    <p><strong>Nội dung chuyển khoản:</strong> @ViewBag.NoiDungChuyenKhoan</p>
+
+    <hr />
+
+    <p style="color: red;">Nếu bạn đã thanh toán, vui lòng kiểm tra email để theo dõi thông tin đơn hàng.</p>
+    <p style="color: red;">Đơn hàng sẽ được gửi đến địa chỉ của bạn</p>
+    <a href="@Url.Action("Index", "Home")" class="btn btn-primary">Quay trở về trang chủ</a>
+</div>
+
+<style>
+    div {
+        text-align: center;
+    }
+
+    h2, h3 {
+        color: #333;
+    }
+
+    p {
+        font-size: 16px;
+        margin: 5px 0;
+    }
+
+    .btn {
+        display: inline-block;
+        padding: 10px 20px;
+        margin-top: 20px;
+        background-color: #007bff;
+        color: white;
+        text-decoration: none;
+        border-radius: 5px;
+    }
+
+        .btn:hover {
+            background-color: #0056b3;
+        }
+</style>

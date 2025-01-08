@@ -1,0 +1,40 @@
+﻿@model Websitebansach.Models.ThamGia
+
+@{
+    ViewBag.Title = "Thêm tác giả tham gia vào sách";
+    Layout = "~/Views/Layout/AdminLayout.cshtml";
+}
+
+<h2>Thêm tác giả tham gia vào sách</h2>
+
+@using (Html.BeginForm())
+{
+    @Html.AntiForgeryToken()
+
+    <div class="form-group">
+        @Html.LabelFor(model => model.MaSach, "Chọn Sách")
+        @Html.DropDownList("MaSach", (SelectList)ViewBag.MaSach, "Chọn sách", new { @class = "form-control" })
+        @Html.ValidationMessage("MaSach", null, new { @class = "text-danger" })
+    </div>
+
+    <div class="form-group">
+        @Html.LabelFor(model => model.MaTacGia, "Chọn Tác Giả")
+        @Html.DropDownList("MaTacGia", (SelectList)ViewBag.MaTacGia, "Chọn tác giả", new { @class = "form-control" })
+        @Html.ValidationMessage("MaTacGia", null, new { @class = "text-danger" })
+    </div>
+
+    <div class="form-group">
+        @Html.LabelFor(model => model.VaiTro)
+        @Html.TextBoxFor(model => model.VaiTro, new { @class = "form-control" })
+        @Html.ValidationMessage("VaiTro", null, new { @class = "text-danger" })
+    </div>
+
+    <div class="form-group">
+        @Html.LabelFor(model => model.ViTri)
+        @Html.TextBoxFor(model => model.ViTri, new { @class = "form-control" })
+        @Html.ValidationMessage("ViTri", null, new { @class = "text-danger" })
+    </div>
+
+    <button type="submit" class="btn btn-success">Lưu</button>
+    @Html.ActionLink("Hủy", "Index", "TacGias", null, new { @class = "btn btn-secondary" })
+}

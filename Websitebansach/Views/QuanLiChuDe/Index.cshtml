@@ -1,0 +1,50 @@
+﻿@model IEnumerable<Websitebansach.Models.ChuDe>
+
+@{
+    ViewBag.Title = "Danh Sách Chủ Đề";
+}
+@{
+    ViewBag.Title = "Index";
+    Layout = "~/Views/Layout/AdminLayout.cshtml";
+}
+<div class="container mt-4">
+    <h2 class="text-center mb-4">Danh Sách Chủ Đề</h2>
+
+    <!-- Nút Thêm Mới -->
+    <div class="text-right mb-3">
+        @Html.ActionLink("Thêm Mới", "Create", "QuanLiChuDe", null, new { @class = "btn btn-success btn-lg" })
+    </div>
+
+    <!-- Nếu có dữ liệu chủ đề -->
+    @if (Model != null && Model.Any())
+    {
+        <table class="table table-bordered table-striped">
+            <thead class="thead-dark">
+                <tr>
+                    <th class="text-center">Mã Chủ Đề</th>
+                    <th class="text-center">Tên Chủ Đề</th>
+                    <th class="text-center">Hành Động</th>
+                </tr>
+            </thead>
+            <tbody>
+                @foreach (var item in Model)
+                {
+                    <tr>
+                        <td class="text-center">@item.MaChuDe</td>
+                        <td>@item.TenChuDe</td>
+                        <td class="text-center">
+                            <a href="@Url.Action("Edit", "QuanLiChuDe", new { id = item.MaChuDe })" class="btn btn-warning btn-sm">Sửa</a>
+                            <a href="@Url.Action("Delete", "QuanLiChuDe", new { id = item.MaChuDe })" class="btn btn-danger btn-sm">Xóa</a>
+                        </td>
+                    </tr>
+                }
+            </tbody>
+        </table>
+    }
+    else
+    {
+        <div class="alert alert-info text-center" role="alert">
+            Không có chủ đề nào để hiển thị.
+        </div>
+    }
+</div>

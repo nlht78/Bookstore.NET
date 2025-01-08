@@ -1,0 +1,30 @@
+﻿@model Websitebansach.Models.ChuDe
+@{
+    ViewBag.Title = "Index";
+    Layout = "~/Views/Layout/AdminLayout.cshtml";
+}
+<h2>Sửa Chủ Đề</h2>
+
+
+@using (Html.BeginForm("Edit", "QuanLiChuDe", FormMethod.Post, new { id = Model.MaChuDe }))
+{
+    @Html.AntiForgeryToken()
+
+    <div class="form-group">
+        @Html.LabelFor(model => model.MaChuDe)
+        @Html.EditorFor(model => model.MaChuDe)
+        @Html.ValidationMessageFor(model => model.MaChuDe)
+    </div>
+
+    <div class="form-group">
+        @Html.LabelFor(model => model.TenChuDe)
+        @Html.EditorFor(model => model.TenChuDe)
+        @Html.ValidationMessageFor(model => model.TenChuDe)
+    </div>
+
+    <div class="form-group">
+        <input type="submit" value="Lưu" class="btn btn-primary" />
+        @Html.ActionLink("Hủy", "Index", null, new { @class = "btn btn-default" })
+    </div>
+}
+

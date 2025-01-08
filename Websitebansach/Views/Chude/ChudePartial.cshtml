@@ -1,0 +1,13 @@
+﻿@using Websitebansach.Models;
+@model List<ChuDe>
+    
+<h1>Danh mục chủ đề</h1>
+@foreach (var item in Model)
+            {
+                <a href="@Url.Action("SachTheoChuDe", new { @MaCHuDe = item.MaChuDe })" class="button button-submit">@item.TenChuDe</a>
+            }
+<a href="#" class="button button-submit">
+     Chủ đề khác....
+</a>
+
+

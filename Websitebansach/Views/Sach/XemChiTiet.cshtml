@@ -1,0 +1,60 @@
+﻿@using Websitebansach.Models;
+@model Sach
+
+@{
+    ViewBag.Title = "XemChiTiet";
+    Layout = "~/Views/Layout/NguoidungLayout2.cshtml";
+}
+
+<div id="HinhAnh">
+    <img src="@Url.Content("~/HinhAnh/" + Model.AnhBia)" height="300" width="200" />
+</div>
+
+<div id="ThongTin">
+    <div id="TenSach">@Model.TenSach</div>
+    <div id="ChuDe" style="color:black">Chủ đề: @ViewBag.TenChuDe</div>
+    <div id="NhaXuatBan" style="color:black">Nhà xuất bản: @ViewBag.NhaXuatBan</div>
+    <div style="color:black">Nội dung tóm tắt:<br />- @Model.MoTa <br /></div>
+    <div id="Gia" style="color:blue">
+        <span style="color: green; font-weight: normal;">Đơn giá:</span><br />
+        @String.Format("{0:0,0}", Model.GiaBan) VNĐ
+    </div>
+
+    @using (Html.BeginForm("ThemGioHang", "GioHang", new { @iMaSach = Model.MaSach, @strURL = Request.Url.ToString() }))
+    {
+        <input type="submit" style="cursor: pointer; width: 100px; height: 30px; background-color: #FF3333; color: white;" value="Mua hàng" id="btnGioHang" class="btn btn-primary">
+    }
+</div>
+
+<div id="TacGia" style="margin-top: 20px;">
+    <h4>Tác giả:</h4>
+    @if (ViewBag.TacGia != null && ((List<SachThamGiaViewModel>)ViewBag.TacGia).Count > 0)
+    {
+        <ul>
+            @foreach (var tacgia in (List<SachThamGiaViewModel>)ViewBag.TacGia)
+            {
+                <li>
+                    <strong>@tacgia.TenSach</strong> - @tacgia.VaiTro, @tacgia.ViTri
+                </li>
+            }
+        </ul>
+    }
+    else
+    {
+        <p>Không có thông tin tác giả cho sách này.</p>
+    }
+</div>
+
+<style>
+    #TenSach {
+        font-weight: normal;
+        font-size: 20pt;
+        height: auto;
+        color: red;
+    }
+
+    #ThongTin {
+        float: left;
+        width: 600px;
+    }
+</style>

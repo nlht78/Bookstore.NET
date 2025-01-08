@@ -1,0 +1,54 @@
+﻿@model Websitebansach.Models.KhachHang
+
+@{
+    ViewBag.Title = "Chi tiết người dùng";
+}
+
+<h2>Chi tiết người dùng</h2>
+
+<div>
+    <h4>Thông tin người dùng</h4>
+    <hr />
+    <dl class="dl-horizontal">
+        <dt>Mã KH</dt>
+        <dd>@Model.MaKH</dd>
+
+        <dt>Họ Tên</dt>
+        <dd>@Model.HoTen</dd>
+
+        <dt>Tài Khoản</dt>
+        <dd>@Model.TaiKhoan</dd>
+
+        <dt>Email</dt>
+        <dd>@Model.Email</dd>
+
+        <dt>Điện Thoại</dt>
+        <dd>@Model.DienThoai</dd>
+
+        <dt>Địa Chỉ</dt>
+        <dd>@Model.DiaChi</dd>
+
+        <dt>Giới Tính</dt>
+        <dd>@Model.GioiTinh</dd>
+
+        <dt>Ngày Sinh</dt>
+        <dd>
+            @if (Model.NgaySinh.HasValue)
+            {
+                @Model.NgaySinh.Value.ToShortDateString()
+            }
+            else
+            {
+                <span>Không xác định</span>
+            }
+        </dd>
+
+        <dt>Quyền</dt>
+        <dd>@Model.quyen</dd>
+    </dl>
+</div>
+
+<p>
+    @Html.ActionLink("Quay lại danh sách", "Index", null, new { @class = "btn btn-default" })
+    @Html.ActionLink("Chỉnh sửa", "Edit", new { id = Model.MaKH }, new { @class = "btn btn-primary" })
+</p>

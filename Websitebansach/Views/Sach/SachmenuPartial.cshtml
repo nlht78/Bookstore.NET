@@ -1,0 +1,23 @@
+﻿@using Websitebansach.Models;
+@model List<Sach>
+<h1 class="item-header">Sách mới</h1>
+@{ 
+
+    foreach (var item in Model)
+    {
+    <div class="activity-list-update">
+        <img src="@Url.Content("~/HinhAnh/"+item.AnhBia)" width="55" height="55" alt="Image">
+        <p><strong>@item.TenSach</strong> <br /> <a href="@Url.Action("XemChiTiet", new { @masach = item.MaSach})">Xem chi tiết</a>.</p>
+        <div class="clear"></div>
+    </div>
+
+        }
+
+    }
+
+
+
+
+<a href="#" class="item-footer green">
+    Sách loại mới nhất
+</a>

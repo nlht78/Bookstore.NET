@@ -1,0 +1,81 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "D:\\CongNgheNet\\Websitebansach1\\Websitebansach\\Websitebansach\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{6CF684B3-D8F6-45E9-9C84-85F82CB963F3}|Websitebansach\\Websitebansach.csproj|D:\\CongNgheNet\\Websitebansach1\\Websitebansach\\Websitebansach\\websitebansach\\controllers\\giohangcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6CF684B3-D8F6-45E9-9C84-85F82CB963F3}|Websitebansach\\Websitebansach.csproj|solutionrelative:websitebansach\\controllers\\giohangcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6CF684B3-D8F6-45E9-9C84-85F82CB963F3}|Websitebansach\\Websitebansach.csproj|D:\\CongNgheNet\\Websitebansach1\\Websitebansach\\Websitebansach\\websitebansach\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{6CF684B3-D8F6-45E9-9C84-85F82CB963F3}|Websitebansach\\Websitebansach.csproj|solutionrelative:websitebansach\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6CF684B3-D8F6-45E9-9C84-85F82CB963F3}|Websitebansach\\Websitebansach.csproj|D:\\CongNgheNet\\Websitebansach1\\Websitebansach\\Websitebansach\\websitebansach\\views\\sach\\xemchitiet.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{6CF684B3-D8F6-45E9-9C84-85F82CB963F3}|Websitebansach\\Websitebansach.csproj|solutionrelative:websitebansach\\views\\sach\\xemchitiet.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 1,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedHeight": 286,
+          "SelectedChildIndex": 3,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{eefa5220-e298-11d0-8f78-00a0c9110057}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{3ae79031-e1bc-11d0-8f78-00a0c9110057}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{66f449b5-c823-40bc-9016-02b4d06a1a8e}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "GioHangController.cs",
+              "DocumentMoniker": "D:\\CongNgheNet\\Websitebansach1\\Websitebansach\\Websitebansach\\Websitebansach\\Controllers\\GioHangController.cs",
+              "RelativeDocumentMoniker": "Websitebansach\\Controllers\\GioHangController.cs",
+              "ToolTip": "D:\\CongNgheNet\\Websitebansach1\\Websitebansach\\Websitebansach\\Websitebansach\\Controllers\\GioHangController.cs",
+              "RelativeToolTip": "Websitebansach\\Controllers\\GioHangController.cs",
+              "ViewState": "AQIAAJ4AAAAAAAAAAAAAwJwAAAASAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-08T08:30:19.877Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "D:\\CongNgheNet\\Websitebansach1\\Websitebansach\\Websitebansach\\Websitebansach\\Views\\Home\\Index.cshtml",
+              "RelativeDocumentMoniker": "Websitebansach\\Views\\Home\\Index.cshtml",
+              "ToolTip": "D:\\CongNgheNet\\Websitebansach1\\Websitebansach\\Websitebansach\\Websitebansach\\Views\\Home\\Index.cshtml",
+              "RelativeToolTip": "Websitebansach\\Views\\Home\\Index.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAACUAAACLAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-06-14T07:56:13.751Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "XemChiTiet.cshtml",
+              "DocumentMoniker": "D:\\CongNgheNet\\Websitebansach1\\Websitebansach\\Websitebansach\\Websitebansach\\Views\\Sach\\XemChiTiet.cshtml",
+              "RelativeDocumentMoniker": "Websitebansach\\Views\\Sach\\XemChiTiet.cshtml",
+              "ToolTip": "D:\\CongNgheNet\\Websitebansach1\\Websitebansach\\Websitebansach\\Websitebansach\\Views\\Sach\\XemChiTiet.cshtml",
+              "RelativeToolTip": "Websitebansach\\Views\\Sach\\XemChiTiet.cshtml",
+              "ViewState": "AQIAAAYAAAAAAAAAAAAAABYAAAAGAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-06-14T09:51:23.785Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

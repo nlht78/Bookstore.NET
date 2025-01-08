@@ -1,0 +1,55 @@
+﻿@{
+    ViewBag.Title = "Liên Hệ";
+    Layout = "~/Views/Layout/NguoidungLayout2.cshtml";
+}
+
+<h2>Liên Hệ</h2>
+
+<div style="display: flex; justify-content: space-between;">
+    <!-- Thông tin liên hệ -->
+    <div style="width: 48%; padding: 20px; border: 1px solid #ccc; border-radius: 5px;">
+        <h3>Thông Tin Liên Hệ</h3>
+        <p><strong>Hotline:</strong> (08)123-345</p>
+        <p><strong>Email:</strong> adwebsach24@example.com</p>
+        <p><strong>Địa chỉ:</strong> 123 Đường ABC, Quận 1, TP. HCM</p>
+    </div>
+
+    <!-- Form gửi lời nhắn -->
+    <div style="width: 48%; padding: 20px; border: 1px solid #ccc; border-radius: 5px;">
+        <h3>Gửi Lời Nhắn</h3>
+
+        @if (TempData["SuccessMessage"] != null)
+        {
+            <div style="color: green;">@TempData["SuccessMessage"]</div>
+        }
+        @if (TempData["ErrorMessage"] != null)
+        {
+            <div style="color: red;">@TempData["ErrorMessage"]</div>
+        }
+
+        @using (Html.BeginForm("SendMessage", "Contact", FormMethod.Post))
+        {
+            @Html.AntiForgeryToken()
+
+            <div>
+                <label>Họ và Tên:</label>
+                <input type="text" name="HoTen" required style="width: 100%; padding: 5px;" />
+            </div>
+            <div>
+                <label>Email:</label>
+                <input type="email" name="Email" required style="width: 100%; padding: 5px;" />
+            </div>
+            <div>
+                <label>Số Điện Thoại:</label>
+                <input type="text" name="SoDienThoai" required style="width: 100%; padding: 5px;" />
+            </div>
+            <div>
+                <label>Nội Dung:</label>
+                <textarea name="NoiDung" required style="width: 100%; padding: 5px;" rows="5"></textarea>
+            </div>
+            <div style="margin-top: 10px;">
+                <button type="submit" style="background-color: #007bff; color: white; padding: 10px 20px; border: none; border-radius: 5px; cursor: pointer;">Gửi</button>
+            </div>
+        }
+    </div>
+</div>

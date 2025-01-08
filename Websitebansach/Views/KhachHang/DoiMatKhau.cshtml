@@ -1,0 +1,50 @@
+﻿@model Websitebansach.Models.KhachHang
+
+@{
+    ViewBag.Title = "Đổi mật khẩu";
+    Layout = "~/Views/Layout/NguoidungLayout2.cshtml";
+}
+
+<h2>Đổi mật khẩu</h2>
+
+@if (TempData["SuccessMessage"] != null)
+{
+    <div class="alert alert-success">
+        @TempData["SuccessMessage"]
+    </div>
+}
+
+@using (Html.BeginForm("DoiMatKhau", "KhachHang", FormMethod.Post))
+{
+    @Html.AntiForgeryToken()
+    <div class="form-horizontal">
+        <hr />
+        @Html.ValidationSummary(true, "", new { @class = "text-danger" })
+        <div>
+            <label for="matKhauCu">Mật khẩu cũ</label>
+            <input type="password" name="matKhauCu" id="matKhauCu" placeholder="Nhập mật khẩu cũ" required />
+        </div>
+
+        <div>
+            <label for="matKhauMoi">Mật khẩu mới</label>
+            <input type="password" name="matKhauMoi" id="matKhauMoi" placeholder="Nhập mật khẩu mới" required />
+        </div>
+
+        <div>
+            <label for="xacNhanMatKhauMoi">Xác nhận mật khẩu mới</label>
+            <input type="password" name="xacNhanMatKhauMoi" id="xacNhanMatKhauMoi" placeholder="Nhập lại mật khẩu mới" required />
+        </div><br />
+
+        <button type="submit">Đổi mật khẩu</button>
+
+        @if (ViewBag.Error != null)
+        {
+            <p style="color: red;">@ViewBag.Error</p>
+        }
+
+        @if (ViewBag.Message != null)
+        {
+            <p style="color: green;">@ViewBag.Message</p>
+        }
+    </div>
+}

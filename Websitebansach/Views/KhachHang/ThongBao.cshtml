@@ -1,0 +1,118 @@
+﻿@model IEnumerable<Websitebansach.Models.DonHang>
+
+@{
+    ViewBag.Title = "Thông báo";
+    Layout = "~/Views/Layout/NguoidungLayout2.cshtml";
+}
+<style>
+    /* Tiêu đề chính */
+    h1 {
+        font-size: 24px;
+        font-weight: bold;
+        text-align: center;
+        margin-bottom: 20px;
+        color: #333;
+    }
+
+    /* Đoạn thông báo khi không có dữ liệu */
+    p {
+        text-align: center;
+        font-size: 18px;
+        color: #888;
+        margin-top: 20px;
+    }
+
+    /* Bảng thông báo */
+    .table {
+        width: 80%;
+        margin: 0 auto;
+        border-collapse: collapse;
+        background-color: #f9f9f9;
+        box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+        border-radius: 8px;
+        overflow: hidden;
+    }
+
+        .table thead {
+            background-color: #007bff;
+            color: white;
+            text-align: left;
+        }
+
+        .table th, .table td {
+            padding: 12px 15px;
+            border: 1px solid #ddd;
+            text-align: center;
+        }
+
+        .table tbody tr:hover {
+            background-color: #f1f1f1;
+        }
+
+        /* Nội dung thông báo */
+        .table tbody td span {
+            font-size: 16px;
+            color: #333;
+            display: inline-block;
+            text-align: left;
+        }
+
+    /* Icon "Xem chi tiết" */
+    a[title="Xem chi tiết"] i {
+        color: #007bff;
+        font-size: 18px;
+        transition: color 0.2s ease-in-out;
+    }
+
+    a[title="Xem chi tiết"]:hover i {
+        color: #0056b3;
+    }
+</style>
+@if (TempData["SuccessMessage"] != null)
+{
+    <div class="alert alert-success">
+        @TempData["SuccessMessage"]
+    </div>
+}
+
+@if (TempData["ErrorMessage"] != null)
+{
+    <div class="alert alert-danger">
+        @TempData["ErrorMessage"]
+    </div>
+}
+
+<h1>Thông báo</h1>
+
+@if (!Model.Any())
+{
+    <p>Bạn chưa có thông báo nào</p>
+}
+else
+{
+    <table class="table">
+        <thead>
+            <tr>
+                <th>Nội dung</th>
+                <th>Xem chi tiết</th>
+            </tr>
+        </thead>
+        <tbody>
+            @foreach (var item in Model)
+            {
+                <tr>
+                    <td>
+                        <span>
+                            <span>Bạn đã đặt thành công đơn hàng vào ngày @item.NgayDat mã đơn hàng là: @item.MaDonHang</span>
+                        </span>
+                    </td>
+                    <td>
+                        <a href="@Url.Action("ChiTietLichSuDonHang", "KhachHang", new { maDonHang = item.MaDonHang })" title="Xem chi tiết">
+                            <i class="fa fa-eye"></i>
+                        </a>
+                    </td>
+                </tr>
+            }
+        </tbody>
+    </table>
+}

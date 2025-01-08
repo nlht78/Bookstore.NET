@@ -1,0 +1,298 @@
+C:\Users\PCs\Documents\Zalo Received Files\WebsitebansachXong\Websitebansach\Websitebansach.Tests\bin\Debug\Microsoft.VisualStudio.TestPlatform.MSTest.TestAdapter.dll
+C:\Users\PCs\Documents\Zalo Received Files\WebsitebansachXong\Websitebansach\Websitebansach.Tests\bin\Debug\Microsoft.VisualStudio.TestPlatform.MSTestAdapter.PlatformServices.Interface.dll
+C:\Users\PCs\Documents\Zalo Received Files\WebsitebansachXong\Websitebansach\Websitebansach.Tests\bin\Debug\Microsoft.VisualStudio.TestPlatform.MSTestAdapter.PlatformServices.dll
+C:\Users\PCs\Documents\Zalo Received Files\WebsitebansachXong\Websitebansach\Websitebansach.Tests\bin\Debug\Microsoft.TestPlatform.AdapterUtilities.dll
+C:\Users\PCs\Documents\Zalo Received Files\WebsitebansachXong\Websitebansach\Websitebansach.Tests\bin\Debug\Websitebansach.Tests.dll.config
+C:\Users\PCs\Documents\Zalo Received Files\WebsitebansachXong\Websitebansach\Websitebansach.Tests\bin\Debug\Websitebansach.Tests.dll
+C:\Users\PCs\Documents\Zalo Received Files\WebsitebansachXong\Websitebansach\Websitebansach.Tests\bin\Debug\Websitebansach.Tests.pdb
+C:\Users\PCs\Documents\Zalo Received Files\WebsitebansachXong\Websitebansach\Websitebansach.Tests\bin\Debug\Castle.Core.dll
+C:\Users\PCs\Documents\Zalo Received Files\WebsitebansachXong\Websitebansach\Websitebansach.Tests\bin\Debug\EntityFramework.dll
+C:\Users\PCs\Documents\Zalo Received Files\WebsitebansachXong\Websitebansach\Websitebansach.Tests\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\PCs\Documents\Zalo Received Files\WebsitebansachXong\Websitebansach\Websitebansach.Tests\bin\Debug\Microsoft.VisualStudio.TestPlatform.TestFramework.dll
+C:\Users\PCs\Documents\Zalo Received Files\WebsitebansachXong\Websitebansach\Websitebansach.Tests\bin\Debug\Microsoft.VisualStudio.TestPlatform.TestFramework.Extensions.dll
+C:\Users\PCs\Documents\Zalo Received Files\WebsitebansachXong\Websitebansach\Websitebansach.Tests\bin\Debug\Microsoft.Web.Infrastructure.dll
+C:\Users\PCs\Documents\Zalo Received Files\WebsitebansachXong\Websitebansach\Websitebansach.Tests\bin\Debug\Moq.dll
+C:\Users\PCs\Documents\Zalo Received Files\WebsitebansachXong\Websitebansach\Websitebansach.Tests\bin\Debug\System.Runtime.CompilerServices.Unsafe.dll
+C:\Users\PCs\Documents\Zalo Received Files\WebsitebansachXong\Websitebansach\Websitebansach.Tests\bin\Debug\System.Threading.Tasks.Extensions.dll
+C:\Users\PCs\Documents\Zalo Received Files\WebsitebansachXong\Websitebansach\Websitebansach.Tests\bin\Debug\System.Web.Helpers.dll
+C:\Users\PCs\Documents\Zalo Received Files\WebsitebansachXong\Websitebansach\Websitebansach.Tests\bin\Debug\System.Web.Mvc.dll
+C:\Users\PCs\Documents\Zalo Received Files\WebsitebansachXong\Websitebansach\Websitebansach.Tests\bin\Debug\System.Web.Razor.dll
+C:\Users\PCs\Documents\Zalo Received Files\WebsitebansachXong\Websitebansach\Websitebansach.Tests\bin\Debug\System.Web.WebPages.Deployment.dll
+C:\Users\PCs\Documents\Zalo Received Files\WebsitebansachXong\Websitebansach\Websitebansach.Tests\bin\Debug\System.Web.WebPages.dll
+C:\Users\PCs\Documents\Zalo Received Files\WebsitebansachXong\Websitebansach\Websitebansach.Tests\bin\Debug\System.Web.WebPages.Razor.dll
+C:\Users\PCs\Documents\Zalo Received Files\WebsitebansachXong\Websitebansach\Websitebansach.Tests\bin\Debug\Websitebansach.dll
+C:\Users\PCs\Documents\Zalo Received Files\WebsitebansachXong\Websitebansach\Websitebansach.Tests\bin\Debug\System.Web.Optimization.dll
+C:\Users\PCs\Documents\Zalo Received Files\WebsitebansachXong\Websitebansach\Websitebansach.Tests\bin\Debug\EPPlus.dll
+C:\Users\PCs\Documents\Zalo Received Files\WebsitebansachXong\Websitebansach\Websitebansach.Tests\bin\Debug\PagedList.dll
+C:\Users\PCs\Documents\Zalo Received Files\WebsitebansachXong\Websitebansach\Websitebansach.Tests\bin\Debug\WebGrease.dll
+C:\Users\PCs\Documents\Zalo Received Files\WebsitebansachXong\Websitebansach\Websitebansach.Tests\bin\Debug\EPPlus.Interfaces.dll
+C:\Users\PCs\Documents\Zalo Received Files\WebsitebansachXong\Websitebansach\Websitebansach.Tests\bin\Debug\EPPlus.System.Drawing.dll
+C:\Users\PCs\Documents\Zalo Received Files\WebsitebansachXong\Websitebansach\Websitebansach.Tests\bin\Debug\Microsoft.IO.RecyclableMemoryStream.dll
+C:\Users\PCs\Documents\Zalo Received Files\WebsitebansachXong\Websitebansach\Websitebansach.Tests\bin\Debug\Antlr3.Runtime.dll
+C:\Users\PCs\Documents\Zalo Received Files\WebsitebansachXong\Websitebansach\Websitebansach.Tests\bin\Debug\Newtonsoft.Json.dll
+C:\Users\PCs\Documents\Zalo Received Files\WebsitebansachXong\Websitebansach\Websitebansach.Tests\bin\Debug\System.Memory.dll
+C:\Users\PCs\Documents\Zalo Received Files\WebsitebansachXong\Websitebansach\Websitebansach.Tests\bin\Debug\System.Numerics.Vectors.dll
+C:\Users\PCs\Documents\Zalo Received Files\WebsitebansachXong\Websitebansach\Websitebansach.Tests\bin\Debug\System.Buffers.dll
+C:\Users\PCs\Documents\Zalo Received Files\WebsitebansachXong\Websitebansach\Websitebansach.Tests\bin\Debug\Websitebansach.pdb
+C:\Users\PCs\Documents\Zalo Received Files\WebsitebansachXong\Websitebansach\Websitebansach.Tests\bin\Debug\Websitebansach.dll.config
+C:\Users\PCs\Documents\Zalo Received Files\WebsitebansachXong\Websitebansach\Websitebansach.Tests\bin\Debug\Castle.Core.xml
+C:\Users\PCs\Documents\Zalo Received Files\WebsitebansachXong\Websitebansach\Websitebansach.Tests\bin\Debug\EntityFramework.xml
+C:\Users\PCs\Documents\Zalo Received Files\WebsitebansachXong\Websitebansach\Websitebansach.Tests\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\PCs\Documents\Zalo Received Files\WebsitebansachXong\Websitebansach\Websitebansach.Tests\bin\Debug\Microsoft.VisualStudio.TestPlatform.TestFramework.xml
+C:\Users\PCs\Documents\Zalo Received Files\WebsitebansachXong\Websitebansach\Websitebansach.Tests\bin\Debug\Microsoft.VisualStudio.TestPlatform.TestFramework.Extensions.xml
+C:\Users\PCs\Documents\Zalo Received Files\WebsitebansachXong\Websitebansach\Websitebansach.Tests\bin\Debug\System.Runtime.CompilerServices.Unsafe.xml
+C:\Users\PCs\Documents\Zalo Received Files\WebsitebansachXong\Websitebansach\Websitebansach.Tests\bin\Debug\System.Threading.Tasks.Extensions.xml
+C:\Users\PCs\Documents\Zalo Received Files\WebsitebansachXong\Websitebansach\Websitebansach.Tests\bin\Debug\System.Web.Helpers.xml
+C:\Users\PCs\Documents\Zalo Received Files\WebsitebansachXong\Websitebansach\Websitebansach.Tests\bin\Debug\System.Web.Mvc.xml
+C:\Users\PCs\Documents\Zalo Received Files\WebsitebansachXong\Websitebansach\Websitebansach.Tests\bin\Debug\System.Web.Razor.xml
+C:\Users\PCs\Documents\Zalo Received Files\WebsitebansachXong\Websitebansach\Websitebansach.Tests\bin\Debug\System.Web.WebPages.xml
+C:\Users\PCs\Documents\Zalo Received Files\WebsitebansachXong\Websitebansach\Websitebansach.Tests\bin\Debug\System.Web.WebPages.Deployment.xml
+C:\Users\PCs\Documents\Zalo Received Files\WebsitebansachXong\Websitebansach\Websitebansach.Tests\bin\Debug\System.Web.WebPages.Razor.xml
+C:\Users\PCs\Documents\Zalo Received Files\WebsitebansachXong\Websitebansach\Websitebansach.Tests\bin\Debug\System.Web.Optimization.xml
+C:\Users\PCs\Documents\Zalo Received Files\WebsitebansachXong\Websitebansach\Websitebansach.Tests\bin\Debug\EPPlus.xml
+C:\Users\PCs\Documents\Zalo Received Files\WebsitebansachXong\Websitebansach\Websitebansach.Tests\bin\Debug\PagedList.xml
+C:\Users\PCs\Documents\Zalo Received Files\WebsitebansachXong\Websitebansach\Websitebansach.Tests\bin\Debug\Microsoft.IO.RecyclableMemoryStream.xml
+C:\Users\PCs\Documents\Zalo Received Files\WebsitebansachXong\Websitebansach\Websitebansach.Tests\bin\Debug\Antlr3.Runtime.pdb
+C:\Users\PCs\Documents\Zalo Received Files\WebsitebansachXong\Websitebansach\Websitebansach.Tests\bin\Debug\Newtonsoft.Json.xml
+C:\Users\PCs\Documents\Zalo Received Files\WebsitebansachXong\Websitebansach\Websitebansach.Tests\bin\Debug\System.Memory.xml
+C:\Users\PCs\Documents\Zalo Received Files\WebsitebansachXong\Websitebansach\Websitebansach.Tests\bin\Debug\System.Numerics.Vectors.xml
+C:\Users\PCs\Documents\Zalo Received Files\WebsitebansachXong\Websitebansach\Websitebansach.Tests\bin\Debug\System.Buffers.xml
+C:\Users\PCs\Documents\Zalo Received Files\WebsitebansachXong\Websitebansach\Websitebansach.Tests\obj\Debug\Websitebansach.Tests.csproj.AssemblyReference.cache
+C:\Users\PCs\Documents\Zalo Received Files\WebsitebansachXong\Websitebansach\Websitebansach.Tests\obj\Debug\Websitebansach.Tests.csproj.CoreCompileInputs.cache
+C:\Users\PCs\Documents\Zalo Received Files\WebsitebansachXong\Websitebansach\Websitebansach.Tests\obj\Debug\Websiteb.6AEED849.Up2Date
+C:\Users\PCs\Documents\Zalo Received Files\WebsitebansachXong\Websitebansach\Websitebansach.Tests\obj\Debug\Websitebansach.Tests.dll
+C:\Users\PCs\Documents\Zalo Received Files\WebsitebansachXong\Websitebansach\Websitebansach.Tests\obj\Debug\Websitebansach.Tests.pdb
+C:\Users\PCs\Documents\Zalo Received Files\WebsitebansachXong\Websitebansach\Websitebansach.Tests\bin\Debug\nunit.framework.dll
+C:\Users\PCs\Documents\Zalo Received Files\WebsitebansachXong\Websitebansach\Websitebansach.Tests\bin\Debug\nunit.framework.legacy.dll
+C:\Users\PCs\Documents\Zalo Received Files\WebsitebansachXong\Websitebansach\Websitebansach.Tests\bin\Debug\System.ValueTuple.dll
+C:\Users\PCs\Documents\Zalo Received Files\WebsitebansachXong\Websitebansach\Websitebansach.Tests\bin\Debug\nunit.framework.xml
+C:\Users\PCs\Documents\Zalo Received Files\WebsitebansachXong\Websitebansach\Websitebansach.Tests\bin\Debug\nunit.framework.legacy.xml
+C:\Users\PCs\Documents\Zalo Received Files\WebsitebansachXong\Websitebansach\Websitebansach.Tests\bin\Debug\System.ValueTuple.xml
+C:\Users\PCs\Documents\Zalo Received Files\Websitebansach\Websitebansach\Websitebansach.Tests\bin\Debug\Microsoft.VisualStudio.TestPlatform.MSTest.TestAdapter.dll
+C:\Users\PCs\Documents\Zalo Received Files\Websitebansach\Websitebansach\Websitebansach.Tests\bin\Debug\Microsoft.VisualStudio.TestPlatform.MSTestAdapter.PlatformServices.Interface.dll
+C:\Users\PCs\Documents\Zalo Received Files\Websitebansach\Websitebansach\Websitebansach.Tests\bin\Debug\Microsoft.VisualStudio.TestPlatform.MSTestAdapter.PlatformServices.dll
+C:\Users\PCs\Documents\Zalo Received Files\Websitebansach\Websitebansach\Websitebansach.Tests\bin\Debug\Microsoft.TestPlatform.AdapterUtilities.dll
+C:\Users\PCs\Documents\Zalo Received Files\Websitebansach\Websitebansach\Websitebansach.Tests\bin\Debug\Websitebansach.Tests.dll.config
+C:\Users\PCs\Documents\Zalo Received Files\Websitebansach\Websitebansach\Websitebansach.Tests\bin\Debug\Websitebansach.Tests.dll
+C:\Users\PCs\Documents\Zalo Received Files\Websitebansach\Websitebansach\Websitebansach.Tests\bin\Debug\Websitebansach.Tests.pdb
+C:\Users\PCs\Documents\Zalo Received Files\Websitebansach\Websitebansach\Websitebansach.Tests\bin\Debug\Castle.Core.dll
+C:\Users\PCs\Documents\Zalo Received Files\Websitebansach\Websitebansach\Websitebansach.Tests\bin\Debug\EntityFramework.dll
+C:\Users\PCs\Documents\Zalo Received Files\Websitebansach\Websitebansach\Websitebansach.Tests\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\PCs\Documents\Zalo Received Files\Websitebansach\Websitebansach\Websitebansach.Tests\bin\Debug\Microsoft.VisualStudio.TestPlatform.TestFramework.dll
+C:\Users\PCs\Documents\Zalo Received Files\Websitebansach\Websitebansach\Websitebansach.Tests\bin\Debug\Microsoft.VisualStudio.TestPlatform.TestFramework.Extensions.dll
+C:\Users\PCs\Documents\Zalo Received Files\Websitebansach\Websitebansach\Websitebansach.Tests\bin\Debug\Microsoft.Web.Infrastructure.dll
+C:\Users\PCs\Documents\Zalo Received Files\Websitebansach\Websitebansach\Websitebansach.Tests\bin\Debug\Moq.dll
+C:\Users\PCs\Documents\Zalo Received Files\Websitebansach\Websitebansach\Websitebansach.Tests\bin\Debug\nunit.framework.dll
+C:\Users\PCs\Documents\Zalo Received Files\Websitebansach\Websitebansach\Websitebansach.Tests\bin\Debug\nunit.framework.legacy.dll
+C:\Users\PCs\Documents\Zalo Received Files\Websitebansach\Websitebansach\Websitebansach.Tests\bin\Debug\PagedList.dll
+C:\Users\PCs\Documents\Zalo Received Files\Websitebansach\Websitebansach\Websitebansach.Tests\bin\Debug\Sitecore.FakeDb.dll
+C:\Users\PCs\Documents\Zalo Received Files\Websitebansach\Websitebansach\Websitebansach.Tests\bin\Debug\System.Buffers.dll
+C:\Users\PCs\Documents\Zalo Received Files\Websitebansach\Websitebansach\Websitebansach.Tests\bin\Debug\System.Memory.dll
+C:\Users\PCs\Documents\Zalo Received Files\Websitebansach\Websitebansach\Websitebansach.Tests\bin\Debug\System.Numerics.Vectors.dll
+C:\Users\PCs\Documents\Zalo Received Files\Websitebansach\Websitebansach\Websitebansach.Tests\bin\Debug\System.Runtime.CompilerServices.Unsafe.dll
+C:\Users\PCs\Documents\Zalo Received Files\Websitebansach\Websitebansach\Websitebansach.Tests\bin\Debug\System.Threading.Tasks.Extensions.dll
+C:\Users\PCs\Documents\Zalo Received Files\Websitebansach\Websitebansach\Websitebansach.Tests\bin\Debug\System.ValueTuple.dll
+C:\Users\PCs\Documents\Zalo Received Files\Websitebansach\Websitebansach\Websitebansach.Tests\bin\Debug\System.Web.Helpers.dll
+C:\Users\PCs\Documents\Zalo Received Files\Websitebansach\Websitebansach\Websitebansach.Tests\bin\Debug\System.Web.Mvc.dll
+C:\Users\PCs\Documents\Zalo Received Files\Websitebansach\Websitebansach\Websitebansach.Tests\bin\Debug\System.Web.Razor.dll
+C:\Users\PCs\Documents\Zalo Received Files\Websitebansach\Websitebansach\Websitebansach.Tests\bin\Debug\System.Web.WebPages.Deployment.dll
+C:\Users\PCs\Documents\Zalo Received Files\Websitebansach\Websitebansach\Websitebansach.Tests\bin\Debug\System.Web.WebPages.dll
+C:\Users\PCs\Documents\Zalo Received Files\Websitebansach\Websitebansach\Websitebansach.Tests\bin\Debug\System.Web.WebPages.Razor.dll
+C:\Users\PCs\Documents\Zalo Received Files\Websitebansach\Websitebansach\Websitebansach.Tests\bin\Debug\Websitebansach.dll
+C:\Users\PCs\Documents\Zalo Received Files\Websitebansach\Websitebansach\Websitebansach.Tests\bin\Debug\System.Web.Optimization.dll
+C:\Users\PCs\Documents\Zalo Received Files\Websitebansach\Websitebansach\Websitebansach.Tests\bin\Debug\EPPlus.dll
+C:\Users\PCs\Documents\Zalo Received Files\Websitebansach\Websitebansach\Websitebansach.Tests\bin\Debug\WebGrease.dll
+C:\Users\PCs\Documents\Zalo Received Files\Websitebansach\Websitebansach\Websitebansach.Tests\bin\Debug\EPPlus.Interfaces.dll
+C:\Users\PCs\Documents\Zalo Received Files\Websitebansach\Websitebansach\Websitebansach.Tests\bin\Debug\EPPlus.System.Drawing.dll
+C:\Users\PCs\Documents\Zalo Received Files\Websitebansach\Websitebansach\Websitebansach.Tests\bin\Debug\Microsoft.IO.RecyclableMemoryStream.dll
+C:\Users\PCs\Documents\Zalo Received Files\Websitebansach\Websitebansach\Websitebansach.Tests\bin\Debug\Antlr3.Runtime.dll
+C:\Users\PCs\Documents\Zalo Received Files\Websitebansach\Websitebansach\Websitebansach.Tests\bin\Debug\Newtonsoft.Json.dll
+C:\Users\PCs\Documents\Zalo Received Files\Websitebansach\Websitebansach\Websitebansach.Tests\bin\Debug\Websitebansach.pdb
+C:\Users\PCs\Documents\Zalo Received Files\Websitebansach\Websitebansach\Websitebansach.Tests\bin\Debug\Websitebansach.dll.config
+C:\Users\PCs\Documents\Zalo Received Files\Websitebansach\Websitebansach\Websitebansach.Tests\bin\Debug\Castle.Core.xml
+C:\Users\PCs\Documents\Zalo Received Files\Websitebansach\Websitebansach\Websitebansach.Tests\bin\Debug\EntityFramework.xml
+C:\Users\PCs\Documents\Zalo Received Files\Websitebansach\Websitebansach\Websitebansach.Tests\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\PCs\Documents\Zalo Received Files\Websitebansach\Websitebansach\Websitebansach.Tests\bin\Debug\Microsoft.VisualStudio.TestPlatform.TestFramework.xml
+C:\Users\PCs\Documents\Zalo Received Files\Websitebansach\Websitebansach\Websitebansach.Tests\bin\Debug\Microsoft.VisualStudio.TestPlatform.TestFramework.Extensions.xml
+C:\Users\PCs\Documents\Zalo Received Files\Websitebansach\Websitebansach\Websitebansach.Tests\bin\Debug\nunit.framework.xml
+C:\Users\PCs\Documents\Zalo Received Files\Websitebansach\Websitebansach\Websitebansach.Tests\bin\Debug\nunit.framework.legacy.xml
+C:\Users\PCs\Documents\Zalo Received Files\Websitebansach\Websitebansach\Websitebansach.Tests\bin\Debug\PagedList.xml
+C:\Users\PCs\Documents\Zalo Received Files\Websitebansach\Websitebansach\Websitebansach.Tests\bin\Debug\Sitecore.FakeDb.xml
+C:\Users\PCs\Documents\Zalo Received Files\Websitebansach\Websitebansach\Websitebansach.Tests\bin\Debug\System.Buffers.xml
+C:\Users\PCs\Documents\Zalo Received Files\Websitebansach\Websitebansach\Websitebansach.Tests\bin\Debug\System.Memory.xml
+C:\Users\PCs\Documents\Zalo Received Files\Websitebansach\Websitebansach\Websitebansach.Tests\bin\Debug\System.Numerics.Vectors.xml
+C:\Users\PCs\Documents\Zalo Received Files\Websitebansach\Websitebansach\Websitebansach.Tests\bin\Debug\System.Runtime.CompilerServices.Unsafe.xml
+C:\Users\PCs\Documents\Zalo Received Files\Websitebansach\Websitebansach\Websitebansach.Tests\bin\Debug\System.Threading.Tasks.Extensions.xml
+C:\Users\PCs\Documents\Zalo Received Files\Websitebansach\Websitebansach\Websitebansach.Tests\bin\Debug\System.ValueTuple.xml
+C:\Users\PCs\Documents\Zalo Received Files\Websitebansach\Websitebansach\Websitebansach.Tests\bin\Debug\System.Web.Helpers.xml
+C:\Users\PCs\Documents\Zalo Received Files\Websitebansach\Websitebansach\Websitebansach.Tests\bin\Debug\System.Web.Mvc.xml
+C:\Users\PCs\Documents\Zalo Received Files\Websitebansach\Websitebansach\Websitebansach.Tests\bin\Debug\System.Web.Razor.xml
+C:\Users\PCs\Documents\Zalo Received Files\Websitebansach\Websitebansach\Websitebansach.Tests\bin\Debug\System.Web.WebPages.xml
+C:\Users\PCs\Documents\Zalo Received Files\Websitebansach\Websitebansach\Websitebansach.Tests\bin\Debug\System.Web.WebPages.Deployment.xml
+C:\Users\PCs\Documents\Zalo Received Files\Websitebansach\Websitebansach\Websitebansach.Tests\bin\Debug\System.Web.WebPages.Razor.xml
+C:\Users\PCs\Documents\Zalo Received Files\Websitebansach\Websitebansach\Websitebansach.Tests\bin\Debug\System.Web.Optimization.xml
+C:\Users\PCs\Documents\Zalo Received Files\Websitebansach\Websitebansach\Websitebansach.Tests\bin\Debug\EPPlus.xml
+C:\Users\PCs\Documents\Zalo Received Files\Websitebansach\Websitebansach\Websitebansach.Tests\bin\Debug\Microsoft.IO.RecyclableMemoryStream.xml
+C:\Users\PCs\Documents\Zalo Received Files\Websitebansach\Websitebansach\Websitebansach.Tests\bin\Debug\Antlr3.Runtime.pdb
+C:\Users\PCs\Documents\Zalo Received Files\Websitebansach\Websitebansach\Websitebansach.Tests\bin\Debug\Newtonsoft.Json.xml
+C:\Users\PCs\Documents\Zalo Received Files\Websitebansach\Websitebansach\Websitebansach.Tests\obj\Debug\Websitebansach.Tests.csproj.AssemblyReference.cache
+C:\Users\PCs\Documents\Zalo Received Files\Websitebansach\Websitebansach\Websitebansach.Tests\obj\Debug\Websitebansach.Tests.csproj.CoreCompileInputs.cache
+C:\Users\PCs\Documents\Zalo Received Files\Websitebansach\Websitebansach\Websitebansach.Tests\obj\Debug\Websiteb.6AEED849.Up2Date
+C:\Users\PCs\Documents\Zalo Received Files\Websitebansach\Websitebansach\Websitebansach.Tests\obj\Debug\Websitebansach.Tests.dll
+C:\Users\PCs\Documents\Zalo Received Files\Websitebansach\Websitebansach\Websitebansach.Tests\obj\Debug\Websitebansach.Tests.pdb
+D:\Kì 2 năm III\Websitebansach\Websitebansach\Websitebansach\Websitebansach.Tests\bin\Debug\Microsoft.VisualStudio.TestPlatform.MSTest.TestAdapter.dll
+D:\Kì 2 năm III\Websitebansach\Websitebansach\Websitebansach\Websitebansach.Tests\bin\Debug\Microsoft.VisualStudio.TestPlatform.MSTestAdapter.PlatformServices.Interface.dll
+D:\Kì 2 năm III\Websitebansach\Websitebansach\Websitebansach\Websitebansach.Tests\bin\Debug\Microsoft.VisualStudio.TestPlatform.MSTestAdapter.PlatformServices.dll
+D:\Kì 2 năm III\Websitebansach\Websitebansach\Websitebansach\Websitebansach.Tests\bin\Debug\Microsoft.TestPlatform.AdapterUtilities.dll
+D:\Kì 2 năm III\Websitebansach\Websitebansach\Websitebansach\Websitebansach.Tests\bin\Debug\NUnit3.TestAdapter.dll
+D:\Kì 2 năm III\Websitebansach\Websitebansach\Websitebansach\Websitebansach.Tests\bin\Debug\NUnit3.TestAdapter.pdb
+D:\Kì 2 năm III\Websitebansach\Websitebansach\Websitebansach\Websitebansach.Tests\bin\Debug\nunit.engine.dll
+D:\Kì 2 năm III\Websitebansach\Websitebansach\Websitebansach\Websitebansach.Tests\bin\Debug\nunit.engine.api.dll
+D:\Kì 2 năm III\Websitebansach\Websitebansach\Websitebansach\Websitebansach.Tests\bin\Debug\nunit.engine.core.dll
+D:\Kì 2 năm III\Websitebansach\Websitebansach\Websitebansach\Websitebansach.Tests\bin\Debug\testcentric.engine.metadata.dll
+D:\Kì 2 năm III\Websitebansach\Websitebansach\Websitebansach\Websitebansach.Tests\bin\Debug\Websitebansach.Tests.dll.config
+D:\Kì 2 năm III\Websitebansach\Websitebansach\Websitebansach\Websitebansach.Tests\bin\Debug\Websitebansach.Tests.dll
+D:\Kì 2 năm III\Websitebansach\Websitebansach\Websitebansach\Websitebansach.Tests\bin\Debug\Websitebansach.Tests.pdb
+D:\Kì 2 năm III\Websitebansach\Websitebansach\Websitebansach\Websitebansach.Tests\bin\Debug\Castle.Core.dll
+D:\Kì 2 năm III\Websitebansach\Websitebansach\Websitebansach\Websitebansach.Tests\bin\Debug\EntityFramework.dll
+D:\Kì 2 năm III\Websitebansach\Websitebansach\Websitebansach\Websitebansach.Tests\bin\Debug\EntityFramework.SqlServer.dll
+D:\Kì 2 năm III\Websitebansach\Websitebansach\Websitebansach\Websitebansach.Tests\bin\Debug\Microsoft.VisualStudio.TestPlatform.TestFramework.dll
+D:\Kì 2 năm III\Websitebansach\Websitebansach\Websitebansach\Websitebansach.Tests\bin\Debug\Microsoft.VisualStudio.TestPlatform.TestFramework.Extensions.dll
+D:\Kì 2 năm III\Websitebansach\Websitebansach\Websitebansach\Websitebansach.Tests\bin\Debug\Microsoft.Web.Infrastructure.dll
+D:\Kì 2 năm III\Websitebansach\Websitebansach\Websitebansach\Websitebansach.Tests\bin\Debug\Moq.dll
+D:\Kì 2 năm III\Websitebansach\Websitebansach\Websitebansach\Websitebansach.Tests\bin\Debug\nunit.framework.dll
+D:\Kì 2 năm III\Websitebansach\Websitebansach\Websitebansach\Websitebansach.Tests\bin\Debug\nunit.framework.legacy.dll
+D:\Kì 2 năm III\Websitebansach\Websitebansach\Websitebansach\Websitebansach.Tests\bin\Debug\PagedList.dll
+D:\Kì 2 năm III\Websitebansach\Websitebansach\Websitebansach\Websitebansach.Tests\bin\Debug\Sitecore.FakeDb.dll
+D:\Kì 2 năm III\Websitebansach\Websitebansach\Websitebansach\Websitebansach.Tests\bin\Debug\System.Buffers.dll
+D:\Kì 2 năm III\Websitebansach\Websitebansach\Websitebansach\Websitebansach.Tests\bin\Debug\System.Memory.dll
+D:\Kì 2 năm III\Websitebansach\Websitebansach\Websitebansach\Websitebansach.Tests\bin\Debug\System.Numerics.Vectors.dll
+D:\Kì 2 năm III\Websitebansach\Websitebansach\Websitebansach\Websitebansach.Tests\bin\Debug\System.Runtime.CompilerServices.Unsafe.dll
+D:\Kì 2 năm III\Websitebansach\Websitebansach\Websitebansach\Websitebansach.Tests\bin\Debug\System.Threading.Tasks.Extensions.dll
+D:\Kì 2 năm III\Websitebansach\Websitebansach\Websitebansach\Websitebansach.Tests\bin\Debug\System.ValueTuple.dll
+D:\Kì 2 năm III\Websitebansach\Websitebansach\Websitebansach\Websitebansach.Tests\bin\Debug\System.Web.Helpers.dll
+D:\Kì 2 năm III\Websitebansach\Websitebansach\Websitebansach\Websitebansach.Tests\bin\Debug\System.Web.Mvc.dll
+D:\Kì 2 năm III\Websitebansach\Websitebansach\Websitebansach\Websitebansach.Tests\bin\Debug\System.Web.Razor.dll
+D:\Kì 2 năm III\Websitebansach\Websitebansach\Websitebansach\Websitebansach.Tests\bin\Debug\System.Web.WebPages.Deployment.dll
+D:\Kì 2 năm III\Websitebansach\Websitebansach\Websitebansach\Websitebansach.Tests\bin\Debug\System.Web.WebPages.dll
+D:\Kì 2 năm III\Websitebansach\Websitebansach\Websitebansach\Websitebansach.Tests\bin\Debug\System.Web.WebPages.Razor.dll
+D:\Kì 2 năm III\Websitebansach\Websitebansach\Websitebansach\Websitebansach.Tests\bin\Debug\Websitebansach.dll
+D:\Kì 2 năm III\Websitebansach\Websitebansach\Websitebansach\Websitebansach.Tests\bin\Debug\System.Web.Optimization.dll
+D:\Kì 2 năm III\Websitebansach\Websitebansach\Websitebansach\Websitebansach.Tests\bin\Debug\EPPlus.dll
+D:\Kì 2 năm III\Websitebansach\Websitebansach\Websitebansach\Websitebansach.Tests\bin\Debug\WebGrease.dll
+D:\Kì 2 năm III\Websitebansach\Websitebansach\Websitebansach\Websitebansach.Tests\bin\Debug\EPPlus.Interfaces.dll
+D:\Kì 2 năm III\Websitebansach\Websitebansach\Websitebansach\Websitebansach.Tests\bin\Debug\EPPlus.System.Drawing.dll
+D:\Kì 2 năm III\Websitebansach\Websitebansach\Websitebansach\Websitebansach.Tests\bin\Debug\Microsoft.IO.RecyclableMemoryStream.dll
+D:\Kì 2 năm III\Websitebansach\Websitebansach\Websitebansach\Websitebansach.Tests\bin\Debug\Antlr3.Runtime.dll
+D:\Kì 2 năm III\Websitebansach\Websitebansach\Websitebansach\Websitebansach.Tests\bin\Debug\Newtonsoft.Json.dll
+D:\Kì 2 năm III\Websitebansach\Websitebansach\Websitebansach\Websitebansach.Tests\bin\Debug\Websitebansach.pdb
+D:\Kì 2 năm III\Websitebansach\Websitebansach\Websitebansach\Websitebansach.Tests\bin\Debug\Websitebansach.dll.config
+D:\Kì 2 năm III\Websitebansach\Websitebansach\Websitebansach\Websitebansach.Tests\bin\Debug\Castle.Core.xml
+D:\Kì 2 năm III\Websitebansach\Websitebansach\Websitebansach\Websitebansach.Tests\bin\Debug\EntityFramework.xml
+D:\Kì 2 năm III\Websitebansach\Websitebansach\Websitebansach\Websitebansach.Tests\bin\Debug\EntityFramework.SqlServer.xml
+D:\Kì 2 năm III\Websitebansach\Websitebansach\Websitebansach\Websitebansach.Tests\bin\Debug\Microsoft.VisualStudio.TestPlatform.TestFramework.xml
+D:\Kì 2 năm III\Websitebansach\Websitebansach\Websitebansach\Websitebansach.Tests\bin\Debug\Microsoft.VisualStudio.TestPlatform.TestFramework.Extensions.xml
+D:\Kì 2 năm III\Websitebansach\Websitebansach\Websitebansach\Websitebansach.Tests\bin\Debug\nunit.framework.xml
+D:\Kì 2 năm III\Websitebansach\Websitebansach\Websitebansach\Websitebansach.Tests\bin\Debug\nunit.framework.legacy.xml
+D:\Kì 2 năm III\Websitebansach\Websitebansach\Websitebansach\Websitebansach.Tests\bin\Debug\PagedList.xml
+D:\Kì 2 năm III\Websitebansach\Websitebansach\Websitebansach\Websitebansach.Tests\bin\Debug\Sitecore.FakeDb.xml
+D:\Kì 2 năm III\Websitebansach\Websitebansach\Websitebansach\Websitebansach.Tests\bin\Debug\System.Buffers.xml
+D:\Kì 2 năm III\Websitebansach\Websitebansach\Websitebansach\Websitebansach.Tests\bin\Debug\System.Memory.xml
+D:\Kì 2 năm III\Websitebansach\Websitebansach\Websitebansach\Websitebansach.Tests\bin\Debug\System.Numerics.Vectors.xml
+D:\Kì 2 năm III\Websitebansach\Websitebansach\Websitebansach\Websitebansach.Tests\bin\Debug\System.Runtime.CompilerServices.Unsafe.xml
+D:\Kì 2 năm III\Websitebansach\Websitebansach\Websitebansach\Websitebansach.Tests\bin\Debug\System.Threading.Tasks.Extensions.xml
+D:\Kì 2 năm III\Websitebansach\Websitebansach\Websitebansach\Websitebansach.Tests\bin\Debug\System.ValueTuple.xml
+D:\Kì 2 năm III\Websitebansach\Websitebansach\Websitebansach\Websitebansach.Tests\bin\Debug\System.Web.Helpers.xml
+D:\Kì 2 năm III\Websitebansach\Websitebansach\Websitebansach\Websitebansach.Tests\bin\Debug\System.Web.Mvc.xml
+D:\Kì 2 năm III\Websitebansach\Websitebansach\Websitebansach\Websitebansach.Tests\bin\Debug\System.Web.Razor.xml
+D:\Kì 2 năm III\Websitebansach\Websitebansach\Websitebansach\Websitebansach.Tests\bin\Debug\System.Web.WebPages.xml
+D:\Kì 2 năm III\Websitebansach\Websitebansach\Websitebansach\Websitebansach.Tests\bin\Debug\System.Web.WebPages.Deployment.xml
+D:\Kì 2 năm III\Websitebansach\Websitebansach\Websitebansach\Websitebansach.Tests\bin\Debug\System.Web.WebPages.Razor.xml
+D:\Kì 2 năm III\Websitebansach\Websitebansach\Websitebansach\Websitebansach.Tests\bin\Debug\System.Web.Optimization.xml
+D:\Kì 2 năm III\Websitebansach\Websitebansach\Websitebansach\Websitebansach.Tests\bin\Debug\EPPlus.xml
+D:\Kì 2 năm III\Websitebansach\Websitebansach\Websitebansach\Websitebansach.Tests\bin\Debug\Microsoft.IO.RecyclableMemoryStream.xml
+D:\Kì 2 năm III\Websitebansach\Websitebansach\Websitebansach\Websitebansach.Tests\bin\Debug\Antlr3.Runtime.pdb
+D:\Kì 2 năm III\Websitebansach\Websitebansach\Websitebansach\Websitebansach.Tests\bin\Debug\Newtonsoft.Json.xml
+D:\Kì 2 năm III\Websitebansach\Websitebansach\Websitebansach\Websitebansach.Tests\obj\Debug\Websitebansach.Tests.csproj.AssemblyReference.cache
+D:\Kì 2 năm III\Websitebansach\Websitebansach\Websitebansach\Websitebansach.Tests\obj\Debug\Websitebansach.Tests.csproj.CoreCompileInputs.cache
+D:\Kì 2 năm III\Websitebansach\Websitebansach\Websitebansach\Websitebansach.Tests\obj\Debug\Websiteb.6AEED849.Up2Date
+D:\Kì 2 năm III\Websitebansach\Websitebansach\Websitebansach\Websitebansach.Tests\obj\Debug\Websitebansach.Tests.dll
+D:\Kì 2 năm III\Websitebansach\Websitebansach\Websitebansach\Websitebansach.Tests\obj\Debug\Websitebansach.Tests.pdb
+D:\bai tap\thay lam hk1 nam 4\Websitebansach\Websitebansach\Websitebansach.Tests\bin\Debug\NUnit3.TestAdapter.dll
+D:\bai tap\thay lam hk1 nam 4\Websitebansach\Websitebansach\Websitebansach.Tests\bin\Debug\NUnit3.TestAdapter.pdb
+D:\bai tap\thay lam hk1 nam 4\Websitebansach\Websitebansach\Websitebansach.Tests\bin\Debug\nunit.engine.dll
+D:\bai tap\thay lam hk1 nam 4\Websitebansach\Websitebansach\Websitebansach.Tests\bin\Debug\nunit.engine.api.dll
+D:\bai tap\thay lam hk1 nam 4\Websitebansach\Websitebansach\Websitebansach.Tests\bin\Debug\nunit.engine.core.dll
+D:\bai tap\thay lam hk1 nam 4\Websitebansach\Websitebansach\Websitebansach.Tests\bin\Debug\testcentric.engine.metadata.dll
+D:\bai tap\thay lam hk1 nam 4\Websitebansach\Websitebansach\Websitebansach.Tests\bin\Debug\Microsoft.VisualStudio.TestPlatform.MSTest.TestAdapter.dll
+D:\bai tap\thay lam hk1 nam 4\Websitebansach\Websitebansach\Websitebansach.Tests\bin\Debug\Microsoft.VisualStudio.TestPlatform.MSTestAdapter.PlatformServices.Interface.dll
+D:\bai tap\thay lam hk1 nam 4\Websitebansach\Websitebansach\Websitebansach.Tests\bin\Debug\Microsoft.VisualStudio.TestPlatform.MSTestAdapter.PlatformServices.dll
+D:\bai tap\thay lam hk1 nam 4\Websitebansach\Websitebansach\Websitebansach.Tests\bin\Debug\Microsoft.TestPlatform.AdapterUtilities.dll
+D:\bai tap\thay lam hk1 nam 4\Websitebansach\Websitebansach\Websitebansach.Tests\bin\Debug\Websitebansach.Tests.dll.config
+D:\bai tap\thay lam hk1 nam 4\Websitebansach\Websitebansach\Websitebansach.Tests\bin\Debug\Websitebansach.Tests.dll
+D:\bai tap\thay lam hk1 nam 4\Websitebansach\Websitebansach\Websitebansach.Tests\bin\Debug\Websitebansach.Tests.pdb
+D:\bai tap\thay lam hk1 nam 4\Websitebansach\Websitebansach\Websitebansach.Tests\bin\Debug\Castle.Core.dll
+D:\bai tap\thay lam hk1 nam 4\Websitebansach\Websitebansach\Websitebansach.Tests\bin\Debug\EntityFramework.dll
+D:\bai tap\thay lam hk1 nam 4\Websitebansach\Websitebansach\Websitebansach.Tests\bin\Debug\EntityFramework.SqlServer.dll
+D:\bai tap\thay lam hk1 nam 4\Websitebansach\Websitebansach\Websitebansach.Tests\bin\Debug\Microsoft.VisualStudio.TestPlatform.TestFramework.dll
+D:\bai tap\thay lam hk1 nam 4\Websitebansach\Websitebansach\Websitebansach.Tests\bin\Debug\Microsoft.VisualStudio.TestPlatform.TestFramework.Extensions.dll
+D:\bai tap\thay lam hk1 nam 4\Websitebansach\Websitebansach\Websitebansach.Tests\bin\Debug\Microsoft.Web.Infrastructure.dll
+D:\bai tap\thay lam hk1 nam 4\Websitebansach\Websitebansach\Websitebansach.Tests\bin\Debug\Moq.dll
+D:\bai tap\thay lam hk1 nam 4\Websitebansach\Websitebansach\Websitebansach.Tests\bin\Debug\nunit.framework.dll
+D:\bai tap\thay lam hk1 nam 4\Websitebansach\Websitebansach\Websitebansach.Tests\bin\Debug\nunit.framework.legacy.dll
+D:\bai tap\thay lam hk1 nam 4\Websitebansach\Websitebansach\Websitebansach.Tests\bin\Debug\PagedList.dll
+D:\bai tap\thay lam hk1 nam 4\Websitebansach\Websitebansach\Websitebansach.Tests\bin\Debug\Sitecore.FakeDb.dll
+D:\bai tap\thay lam hk1 nam 4\Websitebansach\Websitebansach\Websitebansach.Tests\bin\Debug\System.Buffers.dll
+D:\bai tap\thay lam hk1 nam 4\Websitebansach\Websitebansach\Websitebansach.Tests\bin\Debug\System.Memory.dll
+D:\bai tap\thay lam hk1 nam 4\Websitebansach\Websitebansach\Websitebansach.Tests\bin\Debug\System.Numerics.Vectors.dll
+D:\bai tap\thay lam hk1 nam 4\Websitebansach\Websitebansach\Websitebansach.Tests\bin\Debug\System.Runtime.CompilerServices.Unsafe.dll
+D:\bai tap\thay lam hk1 nam 4\Websitebansach\Websitebansach\Websitebansach.Tests\bin\Debug\System.Threading.Tasks.Extensions.dll
+D:\bai tap\thay lam hk1 nam 4\Websitebansach\Websitebansach\Websitebansach.Tests\bin\Debug\System.ValueTuple.dll
+D:\bai tap\thay lam hk1 nam 4\Websitebansach\Websitebansach\Websitebansach.Tests\bin\Debug\System.Web.Helpers.dll
+D:\bai tap\thay lam hk1 nam 4\Websitebansach\Websitebansach\Websitebansach.Tests\bin\Debug\System.Web.Mvc.dll
+D:\bai tap\thay lam hk1 nam 4\Websitebansach\Websitebansach\Websitebansach.Tests\bin\Debug\System.Web.Razor.dll
+D:\bai tap\thay lam hk1 nam 4\Websitebansach\Websitebansach\Websitebansach.Tests\bin\Debug\System.Web.WebPages.Deployment.dll
+D:\bai tap\thay lam hk1 nam 4\Websitebansach\Websitebansach\Websitebansach.Tests\bin\Debug\System.Web.WebPages.dll
+D:\bai tap\thay lam hk1 nam 4\Websitebansach\Websitebansach\Websitebansach.Tests\bin\Debug\System.Web.WebPages.Razor.dll
+D:\bai tap\thay lam hk1 nam 4\Websitebansach\Websitebansach\Websitebansach.Tests\bin\Debug\Websitebansach.dll
+D:\bai tap\thay lam hk1 nam 4\Websitebansach\Websitebansach\Websitebansach.Tests\bin\Debug\System.Web.Optimization.dll
+D:\bai tap\thay lam hk1 nam 4\Websitebansach\Websitebansach\Websitebansach.Tests\bin\Debug\EPPlus.dll
+D:\bai tap\thay lam hk1 nam 4\Websitebansach\Websitebansach\Websitebansach.Tests\bin\Debug\WebGrease.dll
+D:\bai tap\thay lam hk1 nam 4\Websitebansach\Websitebansach\Websitebansach.Tests\bin\Debug\EPPlus.Interfaces.dll
+D:\bai tap\thay lam hk1 nam 4\Websitebansach\Websitebansach\Websitebansach.Tests\bin\Debug\EPPlus.System.Drawing.dll
+D:\bai tap\thay lam hk1 nam 4\Websitebansach\Websitebansach\Websitebansach.Tests\bin\Debug\Microsoft.IO.RecyclableMemoryStream.dll
+D:\bai tap\thay lam hk1 nam 4\Websitebansach\Websitebansach\Websitebansach.Tests\bin\Debug\Antlr3.Runtime.dll
+D:\bai tap\thay lam hk1 nam 4\Websitebansach\Websitebansach\Websitebansach.Tests\bin\Debug\Newtonsoft.Json.dll
+D:\bai tap\thay lam hk1 nam 4\Websitebansach\Websitebansach\Websitebansach.Tests\bin\Debug\Websitebansach.pdb
+D:\bai tap\thay lam hk1 nam 4\Websitebansach\Websitebansach\Websitebansach.Tests\bin\Debug\Websitebansach.dll.config
+D:\bai tap\thay lam hk1 nam 4\Websitebansach\Websitebansach\Websitebansach.Tests\bin\Debug\Castle.Core.xml
+D:\bai tap\thay lam hk1 nam 4\Websitebansach\Websitebansach\Websitebansach.Tests\bin\Debug\EntityFramework.xml
+D:\bai tap\thay lam hk1 nam 4\Websitebansach\Websitebansach\Websitebansach.Tests\bin\Debug\EntityFramework.SqlServer.xml
+D:\bai tap\thay lam hk1 nam 4\Websitebansach\Websitebansach\Websitebansach.Tests\bin\Debug\Microsoft.VisualStudio.TestPlatform.TestFramework.xml
+D:\bai tap\thay lam hk1 nam 4\Websitebansach\Websitebansach\Websitebansach.Tests\bin\Debug\Microsoft.VisualStudio.TestPlatform.TestFramework.Extensions.xml
+D:\bai tap\thay lam hk1 nam 4\Websitebansach\Websitebansach\Websitebansach.Tests\bin\Debug\nunit.framework.xml
+D:\bai tap\thay lam hk1 nam 4\Websitebansach\Websitebansach\Websitebansach.Tests\bin\Debug\nunit.framework.legacy.xml
+D:\bai tap\thay lam hk1 nam 4\Websitebansach\Websitebansach\Websitebansach.Tests\bin\Debug\PagedList.xml
+D:\bai tap\thay lam hk1 nam 4\Websitebansach\Websitebansach\Websitebansach.Tests\bin\Debug\Sitecore.FakeDb.xml
+D:\bai tap\thay lam hk1 nam 4\Websitebansach\Websitebansach\Websitebansach.Tests\bin\Debug\System.Buffers.xml
+D:\bai tap\thay lam hk1 nam 4\Websitebansach\Websitebansach\Websitebansach.Tests\bin\Debug\System.Memory.xml
+D:\bai tap\thay lam hk1 nam 4\Websitebansach\Websitebansach\Websitebansach.Tests\bin\Debug\System.Numerics.Vectors.xml
+D:\bai tap\thay lam hk1 nam 4\Websitebansach\Websitebansach\Websitebansach.Tests\bin\Debug\System.Runtime.CompilerServices.Unsafe.xml
+D:\bai tap\thay lam hk1 nam 4\Websitebansach\Websitebansach\Websitebansach.Tests\bin\Debug\System.Threading.Tasks.Extensions.xml
+D:\bai tap\thay lam hk1 nam 4\Websitebansach\Websitebansach\Websitebansach.Tests\bin\Debug\System.ValueTuple.xml
+D:\bai tap\thay lam hk1 nam 4\Websitebansach\Websitebansach\Websitebansach.Tests\bin\Debug\System.Web.Helpers.xml
+D:\bai tap\thay lam hk1 nam 4\Websitebansach\Websitebansach\Websitebansach.Tests\bin\Debug\System.Web.Mvc.xml
+D:\bai tap\thay lam hk1 nam 4\Websitebansach\Websitebansach\Websitebansach.Tests\bin\Debug\System.Web.Razor.xml
+D:\bai tap\thay lam hk1 nam 4\Websitebansach\Websitebansach\Websitebansach.Tests\bin\Debug\System.Web.WebPages.xml
+D:\bai tap\thay lam hk1 nam 4\Websitebansach\Websitebansach\Websitebansach.Tests\bin\Debug\System.Web.WebPages.Deployment.xml
+D:\bai tap\thay lam hk1 nam 4\Websitebansach\Websitebansach\Websitebansach.Tests\bin\Debug\System.Web.WebPages.Razor.xml
+D:\bai tap\thay lam hk1 nam 4\Websitebansach\Websitebansach\Websitebansach.Tests\bin\Debug\System.Web.Optimization.xml
+D:\bai tap\thay lam hk1 nam 4\Websitebansach\Websitebansach\Websitebansach.Tests\bin\Debug\EPPlus.xml
+D:\bai tap\thay lam hk1 nam 4\Websitebansach\Websitebansach\Websitebansach.Tests\bin\Debug\Microsoft.IO.RecyclableMemoryStream.xml
+D:\bai tap\thay lam hk1 nam 4\Websitebansach\Websitebansach\Websitebansach.Tests\bin\Debug\Antlr3.Runtime.pdb
+D:\bai tap\thay lam hk1 nam 4\Websitebansach\Websitebansach\Websitebansach.Tests\bin\Debug\Newtonsoft.Json.xml
+D:\bai tap\thay lam hk1 nam 4\Websitebansach\Websitebansach\Websitebansach.Tests\obj\Debug\Websitebansach.Tests.csproj.AssemblyReference.cache
+D:\bai tap\thay lam hk1 nam 4\Websitebansach\Websitebansach\Websitebansach.Tests\obj\Debug\Websitebansach.Tests.csproj.CoreCompileInputs.cache
+D:\bai tap\thay lam hk1 nam 4\Websitebansach\Websitebansach\Websitebansach.Tests\obj\Debug\Websiteb.6AEED849.Up2Date
+D:\bai tap\thay lam hk1 nam 4\Websitebansach\Websitebansach\Websitebansach.Tests\obj\Debug\Websitebansach.Tests.dll
+D:\bai tap\thay lam hk1 nam 4\Websitebansach\Websitebansach\Websitebansach.Tests\obj\Debug\Websitebansach.Tests.pdb

@@ -1,0 +1,37 @@
+﻿div#SPsach {
+    float: left;
+    width: 25%;
+    padding: 10px;
+    box-sizing: border-box;
+}
+
+#SPsach img {
+    width: 260px;
+    height: 400px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
+
+#divBody {
+    margin-left: 100px;
+
+}
+#TenSach {
+    padding: 5px;
+    height: 60px;
+}
+#DonGia {
+    padding: 5px;
+    font-size: 13pt;
+    border-top: 1px solid rgba(0,0,0,.2);
+}
+#ThongTin {
+    border: 1px solid rgba(0,0,0,.2);
+    padding: 0 15px 15px 15px;
+    font-family: "Segoe UI";
+    font-size: 18pt;
+    font-weight: 400;
+    background: white;
+    width: 260px;
+    border-radius: 4px;
+}

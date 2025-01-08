@@ -1,0 +1,23 @@
+﻿@model Websitebansach.Models.ChuDe
+@{
+    ViewBag.Title = "Index";
+    Layout = "~/Views/Layout/AdminLayout.cshtml";
+}
+<h2>Xóa Chủ Đề</h2>
+
+<div>
+    <h4>Bạn có chắc chắn muốn xóa chủ đề này?</h4>
+    <dl class="dl-horizontal">
+        <dt>Mã Chủ Đề</dt>
+        <dd>@Model.MaChuDe</dd>
+        <dt>Tên Chủ Đề</dt>
+        <dd>@Model.TenChuDe</dd>
+    </dl>
+
+    @using (Html.BeginForm("Delete", "QuanLiChuDe", FormMethod.Post, new { id = Model.MaChuDe }))
+    {
+        @Html.AntiForgeryToken()
+        <input type="submit" value="Xóa" class="btn btn-danger" />
+        @Html.ActionLink("Hủy", "Index", null, new { @class = "btn btn-default" })
+    }
+</div>

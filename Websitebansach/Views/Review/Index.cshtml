@@ -1,0 +1,76 @@
+﻿@model IEnumerable<Websitebansach.Models.Review>
+
+<h2>Danh sách đánh giá</h2>
+
+<!-- Thông báo nếu có -->
+@if (TempData["SuccessMessage"] != null)
+{
+    <div class="alert alert-success">
+        @TempData["SuccessMessage"]
+    </div>
+}
+
+<!-- Hiển thị danh sách đánh giá -->
+<table class="table table-striped">
+    <thead>
+        <tr>
+            <th>Tên người dùng</th>
+            <th>Bình luận</th>
+            <th>Đánh giá</th>
+            <th>Ngày đánh giá</th>
+        </tr>
+    </thead>
+    <tbody>
+        @if (Model != null && Model.Any())
+        {
+            foreach (var review in Model)
+            {
+                <tr>
+                    <td>@review.UserName</td>
+                    <td>@review.Comment</td>
+                    <td>
+                        @for (int i = 0; i < review.Rating; i++)
+                        {
+                            <span style="color: gold;">&#9733;</span> <!-- Biểu tượng ngôi sao -->
+                        }
+                    </td>
+                    <td>@review.CreatedAt.ToString("dd/MM/yyyy HH:mm")</td>
+                </tr>
+            }
+        }
+        else
+        {
+            <tr>
+                <td colspan="4" class="text-center">Chưa có đánh giá nào.</td>
+            </tr>
+        }
+    </tbody>
+</table>
+
+<hr />
+
+<h3>Thêm đánh giá mới</h3>
+@using (Html.BeginForm("SubmitReview", "Review", FormMethod.Post))
+{
+    @Html.AntiForgeryToken()
+
+    <div class="form-group">
+        <label for="UserName">Tên người dùng</label>
+        @Html.TextBoxFor(model => model.First().UserName, new { @class = "form-control", placeholder = "Nhập tên của bạn" })
+        @Html.ValidationMessageFor(model => model.First().UserName, "", new { @class = "text-danger" })
+    </div>
+
+    <div class="form-group">
+        <label for="Comment">Bình luận</label>
+        @Html.TextAreaFor(model => model.First().Comment, new { @class = "form-control", placeholder = "Nhập bình luận của bạn", rows = 4 })
+        @Html.ValidationMessageFor(model => model.First().Comment, "", new { @class = "text-danger" })
+    </div>
+
+    <div class="form-group">
+        <label for="Rating">Đánh giá (1-5)</label>
+        @Html.DropDownListFor(model => model.First().Rating, new SelectList(new[] { 1, 2, 3, 4, 5 }), "Chọn số sao", new { @class = "form-control" })
+        @Html.ValidationMessageFor(model => model.First().Rating, "", new { @class = "text-danger" })
+    </div>
+
+    <button type="submit" class="btn btn-primary">Gửi đánh giá</button>
+}

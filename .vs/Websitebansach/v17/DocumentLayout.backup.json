@@ -1,0 +1,206 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "D:\\K\u00EC 2 n\u0103m III\\Websitebansach\\Websitebansach\\Websitebansach\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{6CF684B3-D8F6-45E9-9C84-85F82CB963F3}|Websitebansach\\Websitebansach.csproj|d:\\k\u00EC 2 n\u0103m iii\\websitebansach\\websitebansach\\websitebansach\\websitebansach\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{6CF684B3-D8F6-45E9-9C84-85F82CB963F3}|Websitebansach\\Websitebansach.csproj|solutionrelative:websitebansach\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6CF684B3-D8F6-45E9-9C84-85F82CB963F3}|Websitebansach\\Websitebansach.csproj|D:\\K\u00EC 2 n\u0103m III\\Websitebansach\\Websitebansach\\Websitebansach\\websitebansach\\views\\review\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{6CF684B3-D8F6-45E9-9C84-85F82CB963F3}|Websitebansach\\Websitebansach.csproj|solutionrelative:websitebansach\\views\\review\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6CF684B3-D8F6-45E9-9C84-85F82CB963F3}|Websitebansach\\Websitebansach.csproj|D:\\K\u00EC 2 n\u0103m III\\Websitebansach\\Websitebansach\\Websitebansach\\websitebansach\\controllers\\reviewcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6CF684B3-D8F6-45E9-9C84-85F82CB963F3}|Websitebansach\\Websitebansach.csproj|solutionrelative:websitebansach\\controllers\\reviewcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BC41EAA0-8E3D-43D1-8056-6CFBC6E35892}|Websitebansach.Tests\\Websitebansach.Tests.csproj|D:\\K\u00EC 2 n\u0103m III\\Websitebansach\\Websitebansach\\Websitebansach\\websitebansach.tests\\reviewcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BC41EAA0-8E3D-43D1-8056-6CFBC6E35892}|Websitebansach.Tests\\Websitebansach.Tests.csproj|solutionrelative:websitebansach.tests\\reviewcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BC41EAA0-8E3D-43D1-8056-6CFBC6E35892}|Websitebansach.Tests\\Websitebansach.Tests.csproj|D:\\K\u00EC 2 n\u0103m III\\Websitebansach\\Websitebansach\\Websitebansach\\websitebansach.tests\\quanlichudecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BC41EAA0-8E3D-43D1-8056-6CFBC6E35892}|Websitebansach.Tests\\Websitebansach.Tests.csproj|solutionrelative:websitebansach.tests\\quanlichudecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BC41EAA0-8E3D-43D1-8056-6CFBC6E35892}|Websitebansach.Tests\\Websitebansach.Tests.csproj|D:\\K\u00EC 2 n\u0103m III\\Websitebansach\\Websitebansach\\Websitebansach\\websitebansach.tests\\tacgiascontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BC41EAA0-8E3D-43D1-8056-6CFBC6E35892}|Websitebansach.Tests\\Websitebansach.Tests.csproj|solutionrelative:websitebansach.tests\\tacgiascontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6CF684B3-D8F6-45E9-9C84-85F82CB963F3}|Websitebansach\\Websitebansach.csproj|D:\\K\u00EC 2 n\u0103m III\\Websitebansach\\Websitebansach\\Websitebansach\\websitebansach\\controllers\\quanlichudecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6CF684B3-D8F6-45E9-9C84-85F82CB963F3}|Websitebansach\\Websitebansach.csproj|solutionrelative:websitebansach\\controllers\\quanlichudecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BC41EAA0-8E3D-43D1-8056-6CFBC6E35892}|Websitebansach.Tests\\Websitebansach.Tests.csproj|D:\\K\u00EC 2 n\u0103m III\\Websitebansach\\Websitebansach\\Websitebansach\\websitebansach.tests\\homecontrollertests.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BC41EAA0-8E3D-43D1-8056-6CFBC6E35892}|Websitebansach.Tests\\Websitebansach.Tests.csproj|solutionrelative:websitebansach.tests\\homecontrollertests.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6CF684B3-D8F6-45E9-9C84-85F82CB963F3}|Websitebansach\\Websitebansach.csproj|D:\\K\u00EC 2 n\u0103m III\\Websitebansach\\Websitebansach\\Websitebansach\\websitebansach\\views\\quanlichude\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{6CF684B3-D8F6-45E9-9C84-85F82CB963F3}|Websitebansach\\Websitebansach.csproj|solutionrelative:websitebansach\\views\\quanlichude\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6CF684B3-D8F6-45E9-9C84-85F82CB963F3}|Websitebansach\\Websitebansach.csproj|D:\\K\u00EC 2 n\u0103m III\\Websitebansach\\Websitebansach\\Websitebansach\\websitebansach\\views\\quanlichude\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{6CF684B3-D8F6-45E9-9C84-85F82CB963F3}|Websitebansach\\Websitebansach.csproj|solutionrelative:websitebansach\\views\\quanlichude\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6CF684B3-D8F6-45E9-9C84-85F82CB963F3}|Websitebansach\\Websitebansach.csproj|D:\\K\u00EC 2 n\u0103m III\\Websitebansach\\Websitebansach\\Websitebansach\\websitebansach\\views\\quanlichude\\delete.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{6CF684B3-D8F6-45E9-9C84-85F82CB963F3}|Websitebansach\\Websitebansach.csproj|solutionrelative:websitebansach\\views\\quanlichude\\delete.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 2,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{eefa5220-e298-11d0-8f78-00a0c9110057}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{3ae79031-e1bc-11d0-8f78-00a0c9110057}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "D:\\K\u00EC 2 n\u0103m III\\Websitebansach\\Websitebansach\\Websitebansach\\Websitebansach\\Views\\Home\\Index.cshtml",
+              "RelativeDocumentMoniker": "Websitebansach\\Views\\Home\\Index.cshtml",
+              "ToolTip": "D:\\K\u00EC 2 n\u0103m III\\Websitebansach\\Websitebansach\\Websitebansach\\Websitebansach\\Views\\Home\\Index.cshtml",
+              "RelativeToolTip": "Websitebansach\\Views\\Home\\Index.cshtml",
+              "ViewState": "AgIAAFgAAAAAAAAAAAAkwHEAAAAEAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-01-07T07:07:13.915Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "D:\\K\u00EC 2 n\u0103m III\\Websitebansach\\Websitebansach\\Websitebansach\\Websitebansach\\Views\\Review\\Index.cshtml",
+              "RelativeDocumentMoniker": "Websitebansach\\Views\\Review\\Index.cshtml",
+              "ToolTip": "D:\\K\u00EC 2 n\u0103m III\\Websitebansach\\Websitebansach\\Websitebansach\\Websitebansach\\Views\\Review\\Index.cshtml",
+              "RelativeToolTip": "Websitebansach\\Views\\Review\\Index.cshtml",
+              "ViewState": "AgIAABIAAAAAAAAAAAAAADIAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-01-07T07:06:25.701Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "ReviewController.cs",
+              "DocumentMoniker": "D:\\K\u00EC 2 n\u0103m III\\Websitebansach\\Websitebansach\\Websitebansach\\Websitebansach.Tests\\ReviewController.cs",
+              "RelativeDocumentMoniker": "Websitebansach.Tests\\ReviewController.cs",
+              "ToolTip": "D:\\K\u00EC 2 n\u0103m III\\Websitebansach\\Websitebansach\\Websitebansach\\Websitebansach.Tests\\ReviewController.cs",
+              "RelativeToolTip": "Websitebansach.Tests\\ReviewController.cs",
+              "ViewState": "AgIAAC8AAAAAAAAAAAAgwDcAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-07T07:03:48.456Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "ReviewController.cs",
+              "DocumentMoniker": "D:\\K\u00EC 2 n\u0103m III\\Websitebansach\\Websitebansach\\Websitebansach\\Websitebansach\\Controllers\\ReviewController.cs",
+              "RelativeDocumentMoniker": "Websitebansach\\Controllers\\ReviewController.cs",
+              "ToolTip": "D:\\K\u00EC 2 n\u0103m III\\Websitebansach\\Websitebansach\\Websitebansach\\Websitebansach\\Controllers\\ReviewController.cs",
+              "RelativeToolTip": "Websitebansach\\Controllers\\ReviewController.cs",
+              "ViewState": "AgIAAA0AAAAAAAAAAAAUwDoAAAAkAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-07T07:02:34.394Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "TacGiasController.cs",
+              "DocumentMoniker": "D:\\K\u00EC 2 n\u0103m III\\Websitebansach\\Websitebansach\\Websitebansach\\Websitebansach.Tests\\TacGiasController.cs",
+              "RelativeDocumentMoniker": "Websitebansach.Tests\\TacGiasController.cs",
+              "ToolTip": "D:\\K\u00EC 2 n\u0103m III\\Websitebansach\\Websitebansach\\Websitebansach\\Websitebansach.Tests\\TacGiasController.cs",
+              "RelativeToolTip": "Websitebansach.Tests\\TacGiasController.cs",
+              "ViewState": "AgIAAEUAAAAAAAAAAAAYwAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-07T07:02:11.522Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "QuanLiChuDeController.cs",
+              "DocumentMoniker": "D:\\K\u00EC 2 n\u0103m III\\Websitebansach\\Websitebansach\\Websitebansach\\Websitebansach.Tests\\QuanLiChuDeController.cs",
+              "RelativeDocumentMoniker": "Websitebansach.Tests\\QuanLiChuDeController.cs",
+              "ToolTip": "D:\\K\u00EC 2 n\u0103m III\\Websitebansach\\Websitebansach\\Websitebansach\\Websitebansach.Tests\\QuanLiChuDeController.cs",
+              "RelativeToolTip": "Websitebansach.Tests\\QuanLiChuDeController.cs",
+              "ViewState": "AgIAAIUAAAAAAAAAAAAAAEUAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-07T06:58:43.789Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "HomeControllerTests.cs",
+              "DocumentMoniker": "D:\\K\u00EC 2 n\u0103m III\\Websitebansach\\Websitebansach\\Websitebansach\\Websitebansach.Tests\\HomeControllerTests.cs",
+              "RelativeDocumentMoniker": "Websitebansach.Tests\\HomeControllerTests.cs",
+              "ToolTip": "D:\\K\u00EC 2 n\u0103m III\\Websitebansach\\Websitebansach\\Websitebansach\\Websitebansach.Tests\\HomeControllerTests.cs",
+              "RelativeToolTip": "Websitebansach.Tests\\HomeControllerTests.cs",
+              "ViewState": "AgIAAEEAAAAAAAAAAAA+wGAAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-07T06:53:35.113Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "D:\\K\u00EC 2 n\u0103m III\\Websitebansach\\Websitebansach\\Websitebansach\\Websitebansach\\Views\\QuanLiChuDe\\Index.cshtml",
+              "RelativeDocumentMoniker": "Websitebansach\\Views\\QuanLiChuDe\\Index.cshtml",
+              "ToolTip": "D:\\K\u00EC 2 n\u0103m III\\Websitebansach\\Websitebansach\\Websitebansach\\Websitebansach\\Views\\QuanLiChuDe\\Index.cshtml",
+              "RelativeToolTip": "Websitebansach\\Views\\QuanLiChuDe\\Index.cshtml",
+              "ViewState": "AgIAABsAAAAAAAAAAAAAAC8AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-01-07T06:37:07.65Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "QuanLiChuDeController.cs",
+              "DocumentMoniker": "D:\\K\u00EC 2 n\u0103m III\\Websitebansach\\Websitebansach\\Websitebansach\\Websitebansach\\Controllers\\QuanLiChuDeController.cs",
+              "RelativeDocumentMoniker": "Websitebansach\\Controllers\\QuanLiChuDeController.cs",
+              "ToolTip": "D:\\K\u00EC 2 n\u0103m III\\Websitebansach\\Websitebansach\\Websitebansach\\Websitebansach\\Controllers\\QuanLiChuDeController.cs",
+              "RelativeToolTip": "Websitebansach\\Controllers\\QuanLiChuDeController.cs",
+              "ViewState": "AgIAAIQAAAAAAAAAAAAAAAsAAAAOAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-07T06:33:29.64Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "Edit.cshtml",
+              "DocumentMoniker": "D:\\K\u00EC 2 n\u0103m III\\Websitebansach\\Websitebansach\\Websitebansach\\Websitebansach\\Views\\QuanLiChuDe\\Edit.cshtml",
+              "RelativeDocumentMoniker": "Websitebansach\\Views\\QuanLiChuDe\\Edit.cshtml",
+              "ToolTip": "D:\\K\u00EC 2 n\u0103m III\\Websitebansach\\Websitebansach\\Websitebansach\\Websitebansach\\Views\\QuanLiChuDe\\Edit.cshtml",
+              "RelativeToolTip": "Websitebansach\\Views\\QuanLiChuDe\\Edit.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAB0AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-01-07T06:31:36.375Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "Delete.cshtml",
+              "DocumentMoniker": "D:\\K\u00EC 2 n\u0103m III\\Websitebansach\\Websitebansach\\Websitebansach\\Websitebansach\\Views\\QuanLiChuDe\\Delete.cshtml",
+              "RelativeDocumentMoniker": "Websitebansach\\Views\\QuanLiChuDe\\Delete.cshtml",
+              "ToolTip": "D:\\K\u00EC 2 n\u0103m III\\Websitebansach\\Websitebansach\\Websitebansach\\Websitebansach\\Views\\QuanLiChuDe\\Delete.cshtml",
+              "RelativeToolTip": "Websitebansach\\Views\\QuanLiChuDe\\Delete.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAaAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-01-07T06:31:25.196Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

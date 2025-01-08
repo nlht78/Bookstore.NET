@@ -1,0 +1,40 @@
+﻿@{
+    ViewBag.Title = "Xác Nhận OTP";
+    Layout = null;
+}
+
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Xác Nhận OTP - Website Bán Sách</title>
+    <link href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet" />
+</head>
+<body>
+    <div class="container mt-5">
+        <h2 class="text-center">Xác Nhận OTP</h2>
+        @if (TempData["ErrorMessage"] != null)
+        {
+            <div class="alert alert-danger">@TempData["ErrorMessage"]</div>
+        }
+
+        @using (Html.BeginForm("XacNhanOTP", "KhachHang", FormMethod.Post))
+        {
+            <div class="form-group">
+                <label>Mã OTP</label>
+                @Html.TextBox("otp", "", new { @class = "form-control", placeholder = "Nhập mã OTP" })
+            </div>
+            <div class="form-group">
+                <label>Mật Khẩu Mới</label>
+                @Html.Password("matKhauMoi", "", new { @class = "form-control", placeholder = "Nhập mật khẩu mới" })
+            </div>
+            <div class="form-group">
+                <label>Xác Nhận Mật Khẩu Mới</label>
+                @Html.Password("xacNhanMatKhauMoi", "", new { @class = "form-control", placeholder = "Xác nhận mật khẩu mới" })
+            </div>
+            <button type="submit" class="btn btn-primary btn-block">Đổi Mật Khẩu</button>
+        }
+    </div>
+</body>
+</html>

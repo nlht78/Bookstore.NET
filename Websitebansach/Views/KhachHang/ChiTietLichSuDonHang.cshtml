@@ -1,0 +1,198 @@
+﻿@model IEnumerable<Websitebansach.Models.ChiTietDonHang>
+
+@{
+    ViewBag.Title = "Chi tiết lịch sử đơn hàng";
+    Layout = "~/Views/Layout/NguoidungLayout2.cshtml";
+}
+<style>
+    /* Định dạng cho các đoạn văn */
+    p {
+        font-size: 16px;
+        line-height: 1.6;
+        margin-bottom: 10px;
+    }
+
+        p strong {
+            color: #333;
+        }
+
+    /* Định dạng cho các trạng thái */
+    span {
+        font-weight: bold;
+    }
+
+    /* Bảng tổng thể */
+    .table {
+        width: 100%;
+        border-collapse: collapse;
+        margin-top: 20px;
+    }
+
+        .table thead {
+            background-color: #f8f9fa;
+        }
+
+        .table th {
+            padding: 12px;
+            text-align: left;
+            border-bottom: 2px solid #dee2e6;
+            color: #495057;
+            font-size: 16px;
+        }
+
+        .table td {
+            padding: 12px;
+            border-bottom: 1px solid #dee2e6;
+            font-size: 14px;
+            color: #333;
+        }
+
+        /* Dòng tổng tiền */
+        .table tbody tr:last-child {
+            font-weight: bold;
+            background-color: #f1f1f1;
+        }
+
+        /* Dòng hiển thị các trạng thái */
+        .table tbody tr:hover {
+            background-color: #f9f9f9;
+        }
+
+        /* Định dạng giá trị tiền tệ */
+        .table td:nth-child(3),
+        .table td:nth-child(4) {
+            text-align: right;
+        }
+
+        /* Căn chỉnh các cột */
+        .table th:nth-child(2),
+        .table td:nth-child(2) {
+            text-align: center;
+        }
+
+    p {
+        text-align: center;
+        color: black;
+        font-size: 18px;
+        font-weight: bold;
+        margin: 20px 0;
+    }
+
+    /* Phong cách cho bảng */
+    .table {
+        width: 100%;
+        margin: 20px auto;
+        border-collapse: collapse;
+        font-size: 16px;
+        background-color: #ffffff;
+        border: 1px solid #ddd;
+    }
+
+        /* Phong cách cho tiêu đề cột */
+        .table th {
+            background-color: #007bff;
+            color: white;
+            text-align: center;
+            padding: 12px;
+            border: 1px solid #ddd;
+            font-weight: bold;
+        }
+
+        /* Phong cách cho các ô dữ liệu */
+        .table td {
+            border: 1px solid #ddd;
+            text-align: center;
+            padding: 10px;
+        }
+
+        /* Màu sắc cho trạng thái đơn hàng */
+        .table span {
+            font-weight: bold;
+        }
+
+        /* Hiệu ứng hover cho hàng */
+        .table tbody tr:hover {
+            background-color: #f1f1f1;
+            transition: background-color 0.3s ease;
+        }
+
+        /* Phong cách cho liên kết "Xem chi tiết" */
+        .table a {
+            color: #007bff;
+            text-decoration: none;
+            font-weight: bold;
+        }
+
+            .table a:hover {
+                text-decoration: underline;
+            }
+</style>
+
+@if (TempData["SuccessMessage"] != null)
+{
+    <div class="alert alert-success">
+        @TempData["SuccessMessage"]
+    </div>
+}
+
+@using (Html.BeginForm("ChiTietLichSuDonHang", "KhachHang", FormMethod.Post))
+{
+    <h1>Chi tiết lịch sử đơn hàng</h1>
+    <p><strong>Mã đơn hàng:</strong> @ViewBag.DonHang.MaDonHang</p>
+    <p><strong>Ngày đặt:</strong> @ViewBag.DonHang.NgayDat</p>
+    <p>
+        <strong>Ngày giao:</strong>
+        @if (ViewBag.DonHang.NgayGiao != null)
+        {
+            <span>@ViewBag.DonHang.NgayGiao</span>
+        }
+        else
+        {
+            <span style="color: red;">Chưa giao</span>
+        }
+    </p>
+    <p>
+        <strong>Tình trạng giao hàng:</strong>
+        @if (ViewBag.DonHang.TinhTrangGiaoHang == 1)
+        {
+            <span>Đã giao</span>
+        }
+        else
+        {
+            <span style="color: red;">Chưa giao</span>
+        }
+    </p>
+    <p>
+        <strong>Phưng thức thanh toán:</strong>
+        @if (ViewBag.DonHang.DaThanhToan == 1)
+        {
+            <span>Thanh toán online</span>
+        }
+        else
+        {
+            <span>Thanh toán khi nhận hàng</span>
+        }
+    </p>
+
+    <table class="table">
+        <thead>
+            <tr>
+                <th>Tên sách</th>
+                <th>Số lượng</th>
+                <th>Đơn giá</th>
+                <th>Thành tiền</th>
+            </tr>
+        </thead>
+        <tbody>
+            @foreach (var item in Model)
+            {
+                <tr>
+                    <td>@item.Sach.TenSach</td>
+                    <td>@item.SoLuong</td>
+                    <td>@String.Format(new System.Globalization.CultureInfo("vi-VN"), "{0:C0}", item.DonGia)</td>
+                    <td>@String.Format(new System.Globalization.CultureInfo("vi-VN"), "{0:C0}", item.SoLuong * item.DonGia)</td>
+                </tr>
+            }
+        </tbody>
+    </table>
+}
